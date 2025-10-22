@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Basic Arithmetic",
+    "instructor": "Professor Tinkles",
+    "emoji": "🐱",
+    "difficulty": "beginner",
+    "concepts": ["Addition", "Subtraction", "Multiplication", "Division", "Word Problems"]
+  },
+  "questions": [
+    {
+      "id": "ar-001",
+      "question": "Professor Tinkles has 8 teacups. If he breaks 3 during his morning tea ceremony, how many teacups does he have left?",
+      "answer": 5,
+      "options": [3, 5, 8, 11],
+      "explanation": "8 - 3 = 5. Professor Tinkles is quite careful with his remaining teacups!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-002",
+      "question": "Sir Whiskersworth needs to measure 4 sides of a square. If each side is 3 paws long, what's the total perimeter?",
+      "answer": 12,
+      "options": [7, 9, 12, 16],
+      "explanation": "4 sides × 3 paws = 12 paws. A perfectly measured square, as expected from Sir Whiskersworth!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-003",
+      "question": "Lady Pawsington has 6 algebra books. She buys 4 more at the cat bookstore. How many books does she have now?",
+      "answer": 10,
+      "options": [8, 10, 12, 14],
+      "explanation": "6 + 4 = 10. Lady Pawsington's library is growing quite nicely!",
+      "concept": "Addition"
+    },
+    {
+      "id": "ar-004",
+      "question": "Inspector Clawson found 15 clues in a mathematical mystery. If he solved 9 of them, how many clues remain unsolved?",
+      "answer": 6,
+      "options": [4, 6, 9, 15],
+      "explanation": "15 - 9 = 6. The Inspector is making excellent progress on this case!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-005",
+      "question": "If Professor Tinkles serves tea to 3 cats and each cat drinks 2 cups, how many cups of tea are served in total?",
+      "answer": 6,
+      "options": [5, 6, 8, 9],
+      "explanation": "3 cats × 2 cups = 6 cups. A proper British tea service for all the feline scholars!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-006",
+      "question": "Sir Whiskersworth has 20 garden tools. If he organizes them into 4 equal groups, how many tools are in each group?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "20 ÷ 4 = 5. Sir Whiskersworth has 5 tools in each organized group!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-007",
+      "question": "Lady Pawsington is solving equations. She has 7 equations solved and 5 more to solve. How many equations does she have in total?",
+      "answer": 12,
+      "options": [10, 11, 12, 13],
+      "explanation": "7 + 5 = 12. Lady Pawsington has 12 equations in her collection!",
+      "concept": "Addition"
+    },
+    {
+      "id": "ar-008",
+      "question": "Professor Tinkles has 18 tea bags. If he uses 3 tea bags per day, how many days will they last?",
+      "answer": 6,
+      "options": [5, 6, 7, 9],
+      "explanation": "18 ÷ 3 = 6. Professor Tinkles' tea bags will last 6 days!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-009",
+      "question": "Inspector Clawson is investigating 8 cases. If he solves 3 cases, how many cases remain?",
+      "answer": 5,
+      "options": [3, 5, 6, 8],
+      "explanation": "8 - 3 = 5. Inspector Clawson has 5 cases remaining to solve!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-010",
+      "question": "Sir Whiskersworth is planting flowers. He has 5 rows with 4 flowers each. How many flowers does he have in total?",
+      "answer": 20,
+      "options": [15, 18, 20, 25],
+      "explanation": "5 rows × 4 flowers = 20 flowers. Sir Whiskersworth's garden is blooming beautifully!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-011",
+      "question": "Lady Pawsington has 14 pencils. She gives away 6 pencils to students. How many pencils does she have left?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "14 - 6 = 8. Lady Pawsington has 8 pencils remaining!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-012",
+      "question": "Professor Tinkles is organizing his study. He has 16 books and wants to arrange them in 2 equal stacks. How many books in each stack?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "16 ÷ 2 = 8. Professor Tinkles has 8 books in each stack!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-013",
+      "question": "Inspector Clawson found 9 clues yesterday and 7 clues today. How many clues has he found in total?",
+      "answer": 16,
+      "options": [14, 15, 16, 17],
+      "explanation": "9 + 7 = 16. Inspector Clawson has found 16 clues in total!",
+      "concept": "Addition"
+    },
+    {
+      "id": "ar-014",
+      "question": "Sir Whiskersworth has 24 seeds. If he plants them in 6 equal rows, how many seeds per row?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "24 ÷ 6 = 4. Sir Whiskersworth plants 4 seeds in each row!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-015",
+      "question": "Lady Pawsington is teaching 3 classes with 6 students each. How many students does she teach in total?",
+      "answer": 18,
+      "options": [15, 16, 18, 20],
+      "explanation": "3 classes × 6 students = 18 students. Lady Pawsington is a busy teacher!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-016",
+      "question": "Professor Tinkles has 9 tea cups and breaks 2 during his morning ceremony. How many cups does he have left?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "9 - 2 = 7. Professor Tinkles has 7 teacups remaining after the ceremony!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-017",
+      "question": "Sir Whiskersworth has 5 rows of flowers with 4 flowers each. How many flowers does he have in total?",
+      "answer": 20,
+      "options": [18, 19, 20, 22],
+      "explanation": "5 rows × 4 flowers = 20 flowers. Sir Whiskersworth's garden is blooming beautifully!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-018",
+      "question": "Lady Pawsington has 21 math books and wants to organize them into 3 equal stacks. How many books per stack?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "21 ÷ 3 = 7. Lady Pawsington has 7 books in each organized stack!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-019",
+      "question": "Inspector Clawson found 8 clues yesterday and 6 clues today. How many clues has he found in total?",
+      "answer": 14,
+      "options": [12, 13, 14, 15],
+      "explanation": "8 + 6 = 14. Inspector Clawson has found 14 clues in total!",
+      "concept": "Addition"
+    },
+    {
+      "id": "ar-020",
+      "question": "Professor Tinkles has 16 tea bags and uses 4 per day. How many days will they last?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "16 ÷ 4 = 4. Professor Tinkles' tea bags will last 4 days!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-021",
+      "question": "Sir Whiskersworth has 7 garden tools and buys 8 more. How many tools does he have now?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "7 + 8 = 15. Sir Whiskersworth now has 15 tools in his garden shed!",
+      "concept": "Addition"
+    },
+    {
+      "id": "ar-022",
+      "question": "Lady Pawsington has 24 pencils and gives away 9 to students. How many pencils does she have left?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "24 - 9 = 15. Lady Pawsington has 15 pencils remaining!",
+      "concept": "Subtraction"
+    },
+    {
+      "id": "ar-023",
+      "question": "Inspector Clawson has 6 cases and each case has 5 clues. How many clues does he have in total?",
+      "answer": 30,
+      "options": [25, 28, 30, 35],
+      "explanation": "6 cases × 5 clues = 30 clues. Inspector Clawson has quite a collection of evidence!",
+      "concept": "Multiplication"
+    },
+    {
+      "id": "ar-024",
+      "question": "Professor Tinkles has 18 tea bags and wants to use 3 per day. How many days will they last?",
+      "answer": 6,
+      "options": [5, 6, 7, 8],
+      "explanation": "18 ÷ 3 = 6. Professor Tinkles' tea bags will last 6 days!",
+      "concept": "Division"
+    },
+    {
+      "id": "ar-025",
+      "question": "Sir Whiskersworth has 4 flower beds with 6 flowers each. How many flowers does he have in total?",
+      "answer": 24,
+      "options": [20, 22, 24, 26],
+      "explanation": "4 flower beds × 6 flowers = 24 flowers. Sir Whiskersworth's garden is flourishing!",
+      "concept": "Multiplication"
+    }
+  ]
+}

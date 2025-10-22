@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Number Recognition",
+    "instructor": "Professor Tinkles",
+    "emoji": "🔢",
+    "difficulty": "beginner",
+    "concepts": ["Number Identification", "Number Recognition", "Number Sequence", "Number Comparison", "Number Order"]
+  },
+  "questions": [
+    {
+      "id": "nr-001",
+      "question": "Professor Tinkles is showing you a number. What number is this: 5?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "This is the number 5! It's written as '5' and we say 'five'. Great job recognizing it!",
+      "concept": "Number Identification"
+    },
+    {
+      "id": "nr-002",
+      "question": "Sir Whiskersworth has 7 garden tools. Which number shows seven?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "The number 7 shows seven! Sir Whiskersworth has 7 garden tools in his collection.",
+      "concept": "Number Recognition"
+    },
+    {
+      "id": "nr-003",
+      "question": "Lady Pawsington is counting her books. She has 12 books. What number comes after 11?",
+      "answer": 12,
+      "options": [10, 11, 12, 13],
+      "explanation": "After 11 comes 12! Lady Pawsington has 12 books in her library.",
+      "concept": "Number Sequence"
+    },
+    {
+      "id": "nr-004",
+      "question": "Inspector Clawson found 15 clues. Which number is bigger: 15 or 13?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "15 is bigger than 13! Inspector Clawson found 15 clues, which is more than 13.",
+      "concept": "Number Comparison"
+    },
+    {
+      "id": "nr-005",
+      "question": "Professor Tinkles is writing numbers. What number comes between 8 and 10?",
+      "answer": 9,
+      "options": [7, 8, 9, 10],
+      "explanation": "The number 9 comes between 8 and 10! The sequence is: 8, 9, 10.",
+      "concept": "Number Order"
+    },
+    {
+      "id": "nr-006",
+      "question": "Sir Whiskersworth is organizing his tools. He has 3 spades and 4 rakes. How many tools does he have in total?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "3 + 4 = 7. Sir Whiskersworth has 7 garden tools in total!",
+      "concept": "Number Recognition"
+    },
+    {
+      "id": "nr-007",
+      "question": "Lady Pawsington is reading a book with 20 pages. What number comes before 20?",
+      "answer": 19,
+      "options": [18, 19, 20, 21],
+      "explanation": "19 comes before 20! Lady Pawsington is on page 19 of her 20-page book.",
+      "concept": "Number Sequence"
+    },
+    {
+      "id": "nr-008",
+      "question": "Inspector Clawson is comparing clues. Which number is smaller: 14 or 16?",
+      "answer": 14,
+      "options": [12, 14, 16, 18],
+      "explanation": "14 is smaller than 16! Inspector Clawson has 14 clues, which is fewer than 16.",
+      "concept": "Number Comparison"
+    },
+    {
+      "id": "nr-009",
+      "question": "Professor Tinkles is counting his teacups. He has 6 teacups. What number is this?",
+      "answer": 6,
+      "options": [4, 5, 6, 7],
+      "explanation": "This is the number 6! Professor Tinkles has 6 teacups for his afternoon tea.",
+      "concept": "Number Identification"
+    },
+    {
+      "id": "nr-010",
+      "question": "Sir Whiskersworth is measuring his garden. It's 10 paws long. What number comes after 9?",
+      "answer": 10,
+      "options": [8, 9, 10, 11],
+      "explanation": "10 comes after 9! Sir Whiskersworth's garden is 10 paws long.",
+      "concept": "Number Sequence"
+    },
+    {
+      "id": "nr-011",
+      "question": "Lady Pawsington has 8 algebra books. Which number shows eight?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "The number 8 shows eight! Lady Pawsington has 8 algebra books in her collection.",
+      "concept": "Number Recognition"
+    },
+    {
+      "id": "nr-012",
+      "question": "Inspector Clawson is organizing evidence. He has 11 pieces of evidence. What number is this?",
+      "answer": 11,
+      "options": [9, 10, 11, 12],
+      "explanation": "This is the number 11! Inspector Clawson has 11 pieces of evidence for his case.",
+      "concept": "Number Identification"
+    },
+    {
+      "id": "nr-013",
+      "question": "Professor Tinkles is comparing his collections. Which has more: 13 teacups or 15 saucers?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "15 saucers is more than 13 teacups! Professor Tinkles has more saucers than teacups.",
+      "concept": "Number Comparison"
+    },
+    {
+      "id": "nr-014",
+      "question": "Sir Whiskersworth is counting his garden rows. He has 4 rows of vegetables. What number comes between 3 and 5?",
+      "answer": 4,
+      "options": [2, 3, 4, 5],
+      "explanation": "4 comes between 3 and 5! Sir Whiskersworth has 4 rows of vegetables in his garden.",
+      "concept": "Number Order"
+    },
+    {
+      "id": "nr-015",
+      "question": "Lady Pawsington is organizing her desk. She has 17 pencils. What number is this?",
+      "answer": 17,
+      "options": [15, 16, 17, 18],
+      "explanation": "This is the number 17! Lady Pawsington has 17 pencils on her desk.",
+      "concept": "Number Identification"
+    },
+    {
+      "id": "nr-016",
+      "question": "Professor Tinkles is counting his tea cups. He has 19 cups. Which number shows nineteen?",
+      "answer": 19,
+      "options": [17, 18, 19, 20],
+      "explanation": "The number 19 represents nineteen items. Professor Tinkles has quite a collection!",
+      "concept": "Number Recognition"
+    },
+    {
+      "id": "nr-017",
+      "question": "Sir Whiskersworth is measuring his garden. He has 20 flower pots. What number comes after 19?",
+      "answer": 20,
+      "options": [18, 19, 20, 21],
+      "explanation": "After 19 comes 20. Sir Whiskersworth has 20 flower pots in his garden!",
+      "concept": "Number Sequence"
+    },
+    {
+      "id": "nr-018",
+      "question": "Inspector Clawson found 14 clues in his investigation. Which number is larger: 14 or 16?",
+      "answer": 16,
+      "options": [14, 15, 16, 17],
+      "explanation": "16 is larger than 14. Inspector Clawson needs to find 2 more clues to reach 16!",
+      "concept": "Number Comparison"
+    },
+    {
+      "id": "nr-019",
+      "question": "Lady Pawsington is arranging numbers. What number comes between 12 and 14?",
+      "answer": 13,
+      "options": [11, 12, 13, 14],
+      "explanation": "13 comes between 12 and 14. Numbers follow a perfect sequence!",
+      "concept": "Number Order"
+    },
+    {
+      "id": "nr-020",
+      "question": "Professor Tinkles is showing you a number. What number is this: 22?",
+      "answer": 22,
+      "options": [20, 21, 22, 23],
+      "explanation": "This is the number 22! It's written as '22' and we say 'twenty-two'.",
+      "concept": "Number Identification"
+    },
+    {
+      "id": "nr-021",
+      "question": "Sir Whiskersworth has 25 garden tools. Which number shows twenty-five?",
+      "answer": 25,
+      "options": [23, 24, 25, 26],
+      "explanation": "The number 25 represents twenty-five items. Sir Whiskersworth is very organized!",
+      "concept": "Number Recognition"
+    },
+    {
+      "id": "nr-022",
+      "question": "Lady Pawsington is counting her books. She has 18 books. What number comes after 18?",
+      "answer": 19,
+      "options": [17, 18, 19, 20],
+      "explanation": "After 18 comes 19. Lady Pawsington's library is growing!",
+      "concept": "Number Sequence"
+    },
+    {
+      "id": "nr-023",
+      "question": "Inspector Clawson is comparing evidence. Which number is smaller: 15 or 13?",
+      "answer": 13,
+      "options": [12, 13, 14, 15],
+      "explanation": "13 is smaller than 15. Inspector Clawson has 13 pieces of evidence.",
+      "concept": "Number Comparison"
+    },
+    {
+      "id": "nr-024",
+      "question": "Professor Tinkles is organizing his study. What number comes between 16 and 18?",
+      "answer": 17,
+      "options": [15, 16, 17, 18],
+      "explanation": "17 comes between 16 and 18. Numbers follow a beautiful order!",
+      "concept": "Number Order"
+    },
+    {
+      "id": "nr-025",
+      "question": "Sir Whiskersworth is showing you a number. What number is this: 24?",
+      "answer": 24,
+      "options": [22, 23, 24, 25],
+      "explanation": "This is the number 24! It's written as '24' and we say 'twenty-four'.",
+      "concept": "Number Identification"
+    }
+  ]
+}
