@@ -39,7 +39,7 @@ export async function loadLessonQuestions(
 ): Promise<LoadedLesson> {
   try {
     console.log(`🔄 Loading lesson: ${lessonName} (${questionCount} questions)`);
-    const response = await fetch(`/data/${lessonName}.json`);
+    const response = await fetch(`./data/${lessonName}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load lesson data: ${response.statusText}`);
     }
