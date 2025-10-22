@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/professor-tinkles-math-academy/static/css/main.c30d6b86.css",
-    "main.js": "/professor-tinkles-math-academy/static/js/main.707b5966.js",
+    "main.css": "/professor-tinkles-math-academy/static/css/main.f8dde7f2.css",
+    "main.js": "/professor-tinkles-math-academy/static/js/main.3188b741.js",
     "static/js/453.0775c6ab.chunk.js": "/professor-tinkles-math-academy/static/js/453.0775c6ab.chunk.js",
     "index.html": "/professor-tinkles-math-academy/index.html",
-    "main.c30d6b86.css.map": "/professor-tinkles-math-academy/static/css/main.c30d6b86.css.map",
-    "main.707b5966.js.map": "/professor-tinkles-math-academy/static/js/main.707b5966.js.map",
+    "main.f8dde7f2.css.map": "/professor-tinkles-math-academy/static/css/main.f8dde7f2.css.map",
+    "main.3188b741.js.map": "/professor-tinkles-math-academy/static/js/main.3188b741.js.map",
     "453.0775c6ab.chunk.js.map": "/professor-tinkles-math-academy/static/js/453.0775c6ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c30d6b86.css",
-    "static/js/main.707b5966.js"
+    "static/css/main.f8dde7f2.css",
+    "static/js/main.3188b741.js"
   ]
 }
