@@ -44,7 +44,7 @@ export async function loadLessonQuestions(
       throw new Error(`Failed to load lesson data: ${response.statusText}`);
     }
     
-    const data: LessonData = await response.json();
+    const data: { lessonInfo: any; questions: any[] } = await response.json();
     console.log(`📊 Loaded ${data.questions.length} questions from ${lessonName}.json`);
     
     // Randomize and select questions
