@@ -7,15 +7,16 @@ import InspectorClawson from './characters/InspectorClawson';
 import ArithmeticLesson from './lessons/ArithmeticLesson';
 import GeometryLesson from './lessons/GeometryLesson';
 import CalculusLesson from './lessons/CalculusLesson';
+import SetTheoryLesson from './lessons/SetTheoryLesson';
 import TeaTimeBreak from './ui/TeaTimeBreak';
 import AchievementSystem from './ui/AchievementSystem';
-import { MessageCircle, Coffee, Trophy, Home, Calculator, Triangle, Zap } from 'lucide-react';
+import { MessageCircle, Coffee, Trophy, Home, Calculator, Triangle, Zap, Layers } from 'lucide-react';
 
 const App: React.FC = () => {
   const [activeCharacter] = useState<string | null>(null);
   const [currentMessage, setCurrentMessage] = useState<string>('');
   const [showMessage, setShowMessage] = useState(false);
-  const [currentView, setCurrentView] = useState<'home' | 'arithmetic' | 'geometry' | 'calculus' | 'tea-time' | 'achievements'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'tea-time' | 'achievements'>('home');
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
   const [perfectScores, setPerfectScores] = useState(0);
   const [totalScore, setTotalScore] = useState(0);
@@ -68,6 +69,13 @@ const App: React.FC = () => {
       case 'calculus':
         return (
           <CalculusLesson 
+            onComplete={handleLessonComplete}
+            onTeaTime={handleTeaTime}
+          />
+        );
+      case 'set-theory':
+        return (
+          <SetTheoryLesson 
             onComplete={handleLessonComplete}
             onTeaTime={handleTeaTime}
           />
@@ -136,6 +144,19 @@ const App: React.FC = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
+                    onClick={() => setCurrentView('set-theory')}
+                  >
+                    <Layers size={32} />
+                    <h3>Set Theory Lessons</h3>
+                    <p>Explore unions, intersections, and complements with Lady Pawsington</p>
+                  </motion.div>
+
+                  <motion.div
+                    className="feature-card"
+                    whileHover={{ scale: 1.05 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.6 }}
                     onClick={() => setCurrentView('tea-time')}
                   >
                     <Coffee size={32} />
@@ -148,7 +169,7 @@ const App: React.FC = () => {
                     whileHover={{ scale: 1.05 }}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.6 }}
+                    transition={{ duration: 0.5, delay: 0.7 }}
                     onClick={() => setCurrentView('achievements')}
                   >
                     <Trophy size={32} />

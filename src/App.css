@@ -250,7 +250,7 @@ body {
 }
 
 /* Lesson Styles */
-.arithmetic-lesson, .geometry-lesson, .calculus-lesson {
+.arithmetic-lesson, .geometry-lesson, .calculus-lesson, .set-theory-lesson {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
