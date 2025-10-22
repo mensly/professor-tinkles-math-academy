@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Trigonometry",
+    "instructor": "Sir Whiskersworth",
+    "emoji": "📐",
+    "difficulty": "intermediate",
+    "concepts": ["Sine", "Cosine", "Tangent", "Angles", "Triangles"]
+  },
+  "questions": [
+    {
+      "id": "trig-001",
+      "question": "Sir Whiskersworth is measuring a right triangle. If the opposite side is 3 and hypotenuse is 5, what is sin(θ)?",
+      "answer": 0.6,
+      "options": [0.4, 0.6, 0.8, 1.0],
+      "explanation": "sin(θ) = opposite/hypotenuse = 3/5 = 0.6. Sir Whiskersworth's measurement is precise!",
+      "concept": "Sine"
+    },
+    {
+      "id": "trig-002",
+      "question": "Lady Pawsington has a right triangle with adjacent side 4 and hypotenuse 5. What is cos(θ)?",
+      "answer": 0.8,
+      "options": [0.6, 0.8, 1.0, 1.2],
+      "explanation": "cos(θ) = adjacent/hypotenuse = 4/5 = 0.8. Lady Pawsington's calculation is spot on!",
+      "concept": "Cosine"
+    },
+    {
+      "id": "trig-003",
+      "question": "Professor Tinkles is studying a right triangle with opposite side 3 and adjacent side 4. What is tan(θ)?",
+      "answer": 0.75,
+      "options": [0.6, 0.75, 0.8, 1.0],
+      "explanation": "tan(θ) = opposite/adjacent = 3/4 = 0.75. Professor Tinkles has calculated the tangent perfectly!",
+      "concept": "Tangent"
+    },
+    {
+      "id": "trig-004",
+      "question": "Inspector Clawson is investigating a 30-60-90 triangle. If the short side is 2, what is the long side?",
+      "answer": 4,
+      "options": [2, 3, 4, 6],
+      "explanation": "In a 30-60-90 triangle, the long side is 2 times the short side. So 2 × 2 = 4!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "trig-005",
+      "question": "Sir Whiskersworth is measuring an angle. If sin(θ) = 0.5, what is θ in degrees?",
+      "answer": 30,
+      "options": [15, 30, 45, 60],
+      "explanation": "sin(30°) = 0.5, so θ = 30°. Sir Whiskersworth has identified the angle correctly!",
+      "concept": "Angles"
+    },
+    {
+      "id": "trig-006",
+      "question": "Lady Pawsington has a right triangle with sides 3, 4, 5. What is sin(θ) for the angle opposite the side of length 3?",
+      "answer": 0.6,
+      "options": [0.4, 0.6, 0.8, 1.0],
+      "explanation": "sin(θ) = opposite/hypotenuse = 3/5 = 0.6. Lady Pawsington's trigonometry is excellent!",
+      "concept": "Sine"
+    },
+    {
+      "id": "trig-007",
+      "question": "Professor Tinkles is studying a right triangle with sides 5, 12, 13. What is cos(θ) for the angle opposite the side of length 5?",
+      "answer": 0.923,
+      "options": [0.8, 0.923, 0.96, 1.0],
+      "explanation": "cos(θ) = adjacent/hypotenuse = 12/13 ≈ 0.923. Professor Tinkles' calculation is precise!",
+      "concept": "Cosine"
+    },
+    {
+      "id": "trig-008",
+      "question": "Inspector Clawson is investigating a right triangle with sides 6, 8, 10. What is tan(θ) for the angle opposite the side of length 6?",
+      "answer": 0.75,
+      "options": [0.6, 0.75, 0.8, 1.0],
+      "explanation": "tan(θ) = opposite/adjacent = 6/8 = 0.75. Inspector Clawson's investigation is thorough!",
+      "concept": "Tangent"
+    },
+    {
+      "id": "trig-009",
+      "question": "Sir Whiskersworth is measuring a 45-45-90 triangle. If one leg is 3, what is the hypotenuse?",
+      "answer": 4.24,
+      "options": [3, 4, 4.24, 6],
+      "explanation": "In a 45-45-90 triangle, hypotenuse = leg × √2 = 3 × 1.414 ≈ 4.24!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "trig-010",
+      "question": "Lady Pawsington is studying an angle. If cos(θ) = 0.707, what is θ in degrees?",
+      "answer": 45,
+      "options": [30, 45, 60, 90],
+      "explanation": "cos(45°) = √2/2 ≈ 0.707, so θ = 45°. Lady Pawsington's angle identification is correct!",
+      "concept": "Angles"
+    },
+    {
+      "id": "trig-011",
+      "question": "Professor Tinkles has a right triangle with sides 7, 24, 25. What is sin(θ) for the angle opposite the side of length 7?",
+      "answer": 0.28,
+      "options": [0.24, 0.28, 0.32, 0.36],
+      "explanation": "sin(θ) = opposite/hypotenuse = 7/25 = 0.28. Professor Tinkles' calculation is accurate!",
+      "concept": "Sine"
+    },
+    {
+      "id": "trig-012",
+      "question": "Inspector Clawson is investigating a right triangle with sides 8, 15, 17. What is cos(θ) for the angle opposite the side of length 8?",
+      "answer": 0.882,
+      "options": [0.8, 0.882, 0.9, 1.0],
+      "explanation": "cos(θ) = adjacent/hypotenuse = 15/17 ≈ 0.882. Inspector Clawson's investigation is precise!",
+      "concept": "Cosine"
+    },
+    {
+      "id": "trig-013",
+      "question": "Sir Whiskersworth is measuring a right triangle with sides 9, 12, 15. What is tan(θ) for the angle opposite the side of length 9?",
+      "answer": 0.75,
+      "options": [0.6, 0.75, 0.8, 1.0],
+      "explanation": "tan(θ) = opposite/adjacent = 9/12 = 0.75. Sir Whiskersworth's measurement is exact!",
+      "concept": "Tangent"
+    },
+    {
+      "id": "trig-014",
+      "question": "Lady Pawsington is studying a 30-60-90 triangle. If the hypotenuse is 6, what is the short side?",
+      "answer": 3,
+      "options": [2, 3, 4, 6],
+      "explanation": "In a 30-60-90 triangle, the short side is half the hypotenuse. So 6 ÷ 2 = 3!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "trig-015",
+      "question": "Professor Tinkles is measuring an angle. If tan(θ) = 1, what is θ in degrees?",
+      "answer": 45,
+      "options": [30, 45, 60, 90],
+      "explanation": "tan(45°) = 1, so θ = 45°. Professor Tinkles has identified the angle perfectly!",
+      "concept": "Angles"
+    },
+    {
+      "id": "trig-016",
+      "question": "Sir Whiskersworth has a right triangle with opposite side 4 and hypotenuse 5. What is sin(θ)?",
+      "answer": 0.8,
+      "options": [0.6, 0.8, 1.0, 1.2],
+      "explanation": "sin(θ) = opposite/hypotenuse = 4/5 = 0.8. Sir Whiskersworth's measurement is precise!",
+      "concept": "Sine"
+    },
+    {
+      "id": "trig-017",
+      "question": "Lady Pawsington has a right triangle with adjacent side 3 and hypotenuse 5. What is cos(θ)?",
+      "answer": 0.6,
+      "options": [0.4, 0.6, 0.8, 1.0],
+      "explanation": "cos(θ) = adjacent/hypotenuse = 3/5 = 0.6. Lady Pawsington's calculation is spot on!",
+      "concept": "Cosine"
+    },
+    {
+      "id": "trig-018",
+      "question": "Professor Tinkles is studying a right triangle with opposite side 4 and adjacent side 3. What is tan(θ)?",
+      "answer": 1.33,
+      "options": [0.75, 1.0, 1.33, 1.5],
+      "explanation": "tan(θ) = opposite/adjacent = 4/3 ≈ 1.33. Professor Tinkles has calculated the tangent perfectly!",
+      "concept": "Tangent"
+    },
+    {
+      "id": "trig-019",
+      "question": "Inspector Clawson is investigating a 30-60-90 triangle. If the short side is 3, what is the long side?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "In a 30-60-90 triangle, the long side is 2 times the short side. So 2 × 3 = 6!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "trig-020",
+      "question": "Sir Whiskersworth is measuring an angle. If sin(θ) = 0.707, what is θ in degrees?",
+      "answer": 45,
+      "options": [30, 45, 60, 90],
+      "explanation": "sin(45°) = √2/2 ≈ 0.707, so θ = 45°. Sir Whiskersworth has identified the angle correctly!",
+      "concept": "Angles"
+    },
+    {
+      "id": "trig-021",
+      "question": "Lady Pawsington has a right triangle with sides 8, 15, 17. What is sin(θ) for the angle opposite the side of length 8?",
+      "answer": 0.47,
+      "options": [0.4, 0.47, 0.5, 0.6],
+      "explanation": "sin(θ) = opposite/hypotenuse = 8/17 ≈ 0.47. Lady Pawsington's trigonometry is excellent!",
+      "concept": "Sine"
+    },
+    {
+      "id": "trig-022",
+      "question": "Professor Tinkles is studying a right triangle with sides 9, 12, 15. What is cos(θ) for the angle opposite the side of length 9?",
+      "answer": 0.8,
+      "options": [0.6, 0.75, 0.8, 0.9],
+      "explanation": "cos(θ) = adjacent/hypotenuse = 12/15 = 0.8. Professor Tinkles' calculation is precise!",
+      "concept": "Cosine"
+    },
+    {
+      "id": "trig-023",
+      "question": "Inspector Clawson is investigating a right triangle with sides 5, 12, 13. What is tan(θ) for the angle opposite the side of length 5?",
+      "answer": 0.42,
+      "options": [0.38, 0.42, 0.5, 0.6],
+      "explanation": "tan(θ) = opposite/adjacent = 5/12 ≈ 0.42. Inspector Clawson's investigation is thorough!",
+      "concept": "Tangent"
+    },
+    {
+      "id": "trig-024",
+      "question": "Sir Whiskersworth is measuring a 45-45-90 triangle. If one leg is 4, what is the hypotenuse?",
+      "answer": 5.66,
+      "options": [4, 5, 5.66, 8],
+      "explanation": "In a 45-45-90 triangle, hypotenuse = leg × √2 = 4 × 1.414 ≈ 5.66!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "trig-025",
+      "question": "Lady Pawsington is studying an angle. If cos(θ) = 0.5, what is θ in degrees?",
+      "answer": 60,
+      "options": [30, 45, 60, 90],
+      "explanation": "cos(60°) = 0.5, so θ = 60°. Lady Pawsington's angle identification is correct!",
+      "concept": "Angles"
+    }
+  ]
+}

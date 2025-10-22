@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Geometry",
+    "instructor": "Sir Whiskersworth",
+    "emoji": "📐",
+    "difficulty": "intermediate",
+    "concepts": ["Perimeter", "Area", "Circles", "Triangles", "Rectangles", "Squares"]
+  },
+  "questions": [
+    {
+      "id": "geo-001",
+      "question": "Sir Whiskersworth has a triangular garden with sides of 3, 4, and 5 paws. What is the perimeter?",
+      "answer": 12,
+      "options": [7, 10, 12, 15],
+      "explanation": "Perimeter = 3 + 4 + 5 = 12 paws. A perfectly measured triangle, as expected from Sir Whiskersworth!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-002",
+      "question": "Lady Pawsington's circular tea table has a radius of 4 paws. What is the diameter?",
+      "answer": 8,
+      "options": [4, 6, 8, 12],
+      "explanation": "Diameter = 2 × radius = 2 × 4 = 8 paws. A perfectly round table for elegant tea service!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-003",
+      "question": "Inspector Clawson's square investigation board has sides of 6 paws each. What is the area?",
+      "answer": 36,
+      "options": [12, 24, 36, 48],
+      "explanation": "Area = side × side = 6 × 6 = 36 square paws. Plenty of space for all those clues!",
+      "concept": "Area"
+    },
+    {
+      "id": "geo-004",
+      "question": "Professor Tinkles has a rectangular study with length 8 paws and width 5 paws. What is the area?",
+      "answer": 40,
+      "options": [13, 26, 40, 50],
+      "explanation": "Area = length × width = 8 × 5 = 40 square paws. A spacious study for mathematical contemplation!",
+      "concept": "Area"
+    },
+    {
+      "id": "geo-005",
+      "question": "A cat's circular scratching post has a circumference of 18.84 paws. What is the radius? (Use π ≈ 3.14)",
+      "answer": 3,
+      "options": [2, 3, 4, 6],
+      "explanation": "Circumference = 2πr, so r = 18.84 ÷ (2 × 3.14) = 3 paws. A perfectly sized scratching post!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-006",
+      "question": "Sir Whiskersworth has a rectangular flower bed that is 10 paws long and 7 paws wide. What is the perimeter?",
+      "answer": 34,
+      "options": [17, 24, 34, 70],
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (10 + 7) = 34 paws. A well-bordered flower bed!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-007",
+      "question": "Lady Pawsington's triangular bookshelf has sides of 5, 12, and 13 paws. What is the perimeter?",
+      "answer": 30,
+      "options": [20, 25, 30, 35],
+      "explanation": "Perimeter = 5 + 12 + 13 = 30 paws. A perfectly triangular bookshelf!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-008",
+      "question": "Inspector Clawson has a square evidence board with an area of 49 square paws. What is the length of each side?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "Area = side², so side = √49 = 7 paws. A perfectly square evidence board!",
+      "concept": "Squares"
+    },
+    {
+      "id": "geo-009",
+      "question": "Professor Tinkles has a circular tea tray with a diameter of 12 paws. What is the radius?",
+      "answer": 6,
+      "options": [4, 6, 8, 12],
+      "explanation": "Radius = diameter ÷ 2 = 12 ÷ 2 = 6 paws. A perfectly round tea tray!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-010",
+      "question": "Sir Whiskersworth is building a rectangular fence. The length is 15 paws and the width is 8 paws. What is the area enclosed?",
+      "answer": 120,
+      "options": [23, 46, 120, 240],
+      "explanation": "Area = length × width = 15 × 8 = 120 square paws. A spacious fenced area!",
+      "concept": "Area"
+    },
+    {
+      "id": "geo-011",
+      "question": "Lady Pawsington has a triangular garden plot with base 6 paws and height 8 paws. What is the area?",
+      "answer": 24,
+      "options": [14, 24, 28, 48],
+      "explanation": "Area = (base × height) ÷ 2 = (6 × 8) ÷ 2 = 24 square paws. A perfectly triangular garden!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "geo-012",
+      "question": "Inspector Clawson's circular magnifying glass has a radius of 3 paws. What is the area? (Use π ≈ 3.14)",
+      "answer": 28.26,
+      "options": [9.42, 18.84, 28.26, 37.68],
+      "explanation": "Area = πr² = 3.14 × 3² = 28.26 square paws. A perfectly round magnifying glass!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-013",
+      "question": "Professor Tinkles has a square study desk with sides of 9 paws each. What is the perimeter?",
+      "answer": 36,
+      "options": [18, 27, 36, 81],
+      "explanation": "Perimeter = 4 × side = 4 × 9 = 36 paws. A perfectly square study desk!",
+      "concept": "Squares"
+    },
+    {
+      "id": "geo-014",
+      "question": "Sir Whiskersworth is measuring a rectangular pond. The length is 12 paws and the width is 5 paws. What is the perimeter?",
+      "answer": 34,
+      "options": [17, 34, 60, 120],
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (12 + 5) = 34 paws. A well-measured pond!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-015",
+      "question": "Lady Pawsington has a circular tea cup with a circumference of 25.12 paws. What is the diameter? (Use π ≈ 3.14)",
+      "answer": 8,
+      "options": [4, 6, 8, 12],
+      "explanation": "Circumference = πd, so d = 25.12 ÷ 3.14 = 8 paws. A perfectly round tea cup!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-016",
+      "question": "Professor Tinkles has a rectangular study with length 10 paws and width 6 paws. What is the area?",
+      "answer": 60,
+      "options": [32, 40, 60, 80],
+      "explanation": "Area = length × width = 10 × 6 = 60 square paws. A spacious study for mathematical contemplation!",
+      "concept": "Area"
+    },
+    {
+      "id": "geo-017",
+      "question": "Sir Whiskersworth has a triangular garden with sides of 5, 12, and 13 paws. What is the perimeter?",
+      "answer": 30,
+      "options": [25, 28, 30, 35],
+      "explanation": "Perimeter = 5 + 12 + 13 = 30 paws. A perfectly measured triangle, as expected from Sir Whiskersworth!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-018",
+      "question": "Lady Pawsington's circular table has a radius of 5 paws. What is the area? (Use π ≈ 3.14)",
+      "answer": 78.5,
+      "options": [62.8, 78.5, 94.2, 125.6],
+      "explanation": "Area = πr² = 3.14 × 5² = 78.5 square paws. A perfectly round table for elegant tea service!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-019",
+      "question": "Inspector Clawson's square evidence board has sides of 8 paws each. What is the perimeter?",
+      "answer": 32,
+      "options": [24, 28, 32, 40],
+      "explanation": "Perimeter = 4 × side = 4 × 8 = 32 paws. A perfectly square evidence board!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-020",
+      "question": "Professor Tinkles has a rectangular tea tray with length 12 paws and width 8 paws. What is the area?",
+      "answer": 96,
+      "options": [80, 88, 96, 104],
+      "explanation": "Area = length × width = 12 × 8 = 96 square paws. A spacious tea tray for all the feline scholars!",
+      "concept": "Area"
+    },
+    {
+      "id": "geo-021",
+      "question": "Sir Whiskersworth has a triangular flower bed with base 8 paws and height 6 paws. What is the area?",
+      "answer": 24,
+      "options": [20, 24, 28, 32],
+      "explanation": "Area = (base × height) ÷ 2 = (8 × 6) ÷ 2 = 24 square paws. A perfectly triangular flower bed!",
+      "concept": "Triangles"
+    },
+    {
+      "id": "geo-022",
+      "question": "Lady Pawsington's circular garden has a diameter of 14 paws. What is the radius?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "Radius = diameter ÷ 2 = 14 ÷ 2 = 7 paws. A perfectly round garden!",
+      "concept": "Circles"
+    },
+    {
+      "id": "geo-023",
+      "question": "Inspector Clawson has a square investigation room with sides of 10 paws each. What is the area?",
+      "answer": 100,
+      "options": [80, 90, 100, 120],
+      "explanation": "Area = side × side = 10 × 10 = 100 square paws. A perfectly square investigation room!",
+      "concept": "Squares"
+    },
+    {
+      "id": "geo-024",
+      "question": "Professor Tinkles has a rectangular study desk with length 15 paws and width 9 paws. What is the perimeter?",
+      "answer": 48,
+      "options": [42, 45, 48, 54],
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (15 + 9) = 48 paws. A well-bordered study desk!",
+      "concept": "Perimeter"
+    },
+    {
+      "id": "geo-025",
+      "question": "Sir Whiskersworth has a circular pond with a circumference of 31.4 paws. What is the radius? (Use π ≈ 3.14)",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "Circumference = 2πr, so r = 31.4 ÷ (2 × 3.14) = 5 paws. A perfectly round pond!",
+      "concept": "Circles"
+    }
+  ]
+}

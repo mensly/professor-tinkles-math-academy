@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Number Theory",
+    "instructor": "Professor Tinkles",
+    "emoji": "🔢",
+    "difficulty": "advanced",
+    "concepts": ["Prime Numbers", "Factors", "GCD", "LCM", "Divisibility"]
+  },
+  "questions": [
+    {
+      "id": "nt-001",
+      "question": "Professor Tinkles is studying prime numbers. Which of these is prime: 15, 17, 21, 25?",
+      "answer": 17,
+      "options": [15, 17, 21, 25],
+      "explanation": "17 is prime because it has no divisors other than 1 and itself. 15 = 3×5, 21 = 3×7, 25 = 5×5!",
+      "concept": "Prime Numbers"
+    },
+    {
+      "id": "nt-002",
+      "question": "Sir Whiskersworth wants to find all factors of 12. How many factors does 12 have?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "The factors of 12 are: 1, 2, 3, 4, 6, 12. That's 6 factors total!",
+      "concept": "Factors"
+    },
+    {
+      "id": "nt-003",
+      "question": "Lady Pawsington needs to find the GCD of 18 and 24. What is it?",
+      "answer": 6,
+      "options": [3, 6, 9, 12],
+      "explanation": "GCD(18, 24) = 6. The factors of 18 are 1,2,3,6,9,18 and of 24 are 1,2,3,4,6,8,12,24. The largest common factor is 6!",
+      "concept": "GCD"
+    },
+    {
+      "id": "nt-004",
+      "question": "Inspector Clawson is investigating the LCM of 4 and 6. What is it?",
+      "answer": 12,
+      "options": [8, 10, 12, 24],
+      "explanation": "LCM(4, 6) = 12. The multiples of 4 are 4,8,12,16... and of 6 are 6,12,18... The smallest common multiple is 12!",
+      "concept": "LCM"
+    },
+    {
+      "id": "nt-005",
+      "question": "Professor Tinkles is checking if 156 is divisible by 3. What is the sum of its digits?",
+      "answer": 12,
+      "options": [10, 11, 12, 13],
+      "explanation": "Sum of digits: 1 + 5 + 6 = 12. Since 12 is divisible by 3, so is 156!",
+      "concept": "Divisibility"
+    },
+    {
+      "id": "nt-006",
+      "question": "Sir Whiskersworth is studying prime numbers. Which is the smallest prime number greater than 20?",
+      "answer": 23,
+      "options": [21, 22, 23, 25],
+      "explanation": "23 is prime. 21 = 3×7, 22 = 2×11, 25 = 5×5, but 23 has no divisors other than 1 and 23!",
+      "concept": "Prime Numbers"
+    },
+    {
+      "id": "nt-007",
+      "question": "Lady Pawsington needs to find all factors of 20. How many factors does 20 have?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "The factors of 20 are: 1, 2, 4, 5, 10, 20. That's 6 factors total!",
+      "concept": "Factors"
+    },
+    {
+      "id": "nt-008",
+      "question": "Inspector Clawson is investigating the GCD of 15 and 25. What is it?",
+      "answer": 5,
+      "options": [3, 5, 10, 15],
+      "explanation": "GCD(15, 25) = 5. The factors of 15 are 1,3,5,15 and of 25 are 1,5,25. The largest common factor is 5!",
+      "concept": "GCD"
+    },
+    {
+      "id": "nt-009",
+      "question": "Professor Tinkles is calculating the LCM of 3 and 8. What is it?",
+      "answer": 24,
+      "options": [16, 20, 24, 32],
+      "explanation": "LCM(3, 8) = 24. The multiples of 3 are 3,6,9,12,15,18,21,24... and of 8 are 8,16,24... The smallest common multiple is 24!",
+      "concept": "LCM"
+    },
+    {
+      "id": "nt-010",
+      "question": "Sir Whiskersworth is checking if 234 is divisible by 9. What is the sum of its digits?",
+      "answer": 9,
+      "options": [7, 8, 9, 10],
+      "explanation": "Sum of digits: 2 + 3 + 4 = 9. Since 9 is divisible by 9, so is 234!",
+      "concept": "Divisibility"
+    },
+    {
+      "id": "nt-011",
+      "question": "Lady Pawsington is studying prime numbers. Which of these is NOT prime: 19, 23, 27, 29?",
+      "answer": 27,
+      "options": [19, 23, 27, 29],
+      "explanation": "27 is not prime because 27 = 3×9. 19, 23, and 29 are all prime numbers!",
+      "concept": "Prime Numbers"
+    },
+    {
+      "id": "nt-012",
+      "question": "Inspector Clawson needs to find all factors of 16. How many factors does 16 have?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "The factors of 16 are: 1, 2, 4, 8, 16. That's 5 factors total!",
+      "concept": "Factors"
+    },
+    {
+      "id": "nt-013",
+      "question": "Professor Tinkles is investigating the GCD of 12 and 18. What is it?",
+      "answer": 6,
+      "options": [3, 6, 9, 12],
+      "explanation": "GCD(12, 18) = 6. The factors of 12 are 1,2,3,4,6,12 and of 18 are 1,2,3,6,9,18. The largest common factor is 6!",
+      "concept": "GCD"
+    },
+    {
+      "id": "nt-014",
+      "question": "Sir Whiskersworth is calculating the LCM of 5 and 7. What is it?",
+      "answer": 35,
+      "options": [25, 30, 35, 40],
+      "explanation": "LCM(5, 7) = 35. The multiples of 5 are 5,10,15,20,25,30,35... and of 7 are 7,14,21,28,35... The smallest common multiple is 35!",
+      "concept": "LCM"
+    },
+    {
+      "id": "nt-015",
+      "question": "Lady Pawsington is checking if 315 is divisible by 5. What is the last digit?",
+      "answer": 5,
+      "options": [0, 3, 5, 7],
+      "explanation": "The last digit is 5. Since it ends in 5, 315 is divisible by 5!",
+      "concept": "Divisibility"
+    },
+    {
+      "id": "nt-016",
+      "question": "Professor Tinkles is studying prime numbers. Which of these is prime: 21, 23, 25, 27?",
+      "answer": 23,
+      "options": [21, 23, 25, 27],
+      "explanation": "23 is prime because it has no divisors other than 1 and itself. 21 = 3×7, 25 = 5×5, 27 = 3×9!",
+      "concept": "Prime Numbers"
+    },
+    {
+      "id": "nt-017",
+      "question": "Sir Whiskersworth wants to find all factors of 18. How many factors does 18 have?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "The factors of 18 are: 1, 2, 3, 6, 9, 18. That's 6 factors total!",
+      "concept": "Factors"
+    },
+    {
+      "id": "nt-018",
+      "question": "Lady Pawsington needs to find the GCD of 20 and 30. What is it?",
+      "answer": 10,
+      "options": [5, 10, 15, 20],
+      "explanation": "GCD(20, 30) = 10. The factors of 20 are 1,2,4,5,10,20 and of 30 are 1,2,3,5,6,10,15,30. The largest common factor is 10!",
+      "concept": "GCD"
+    },
+    {
+      "id": "nt-019",
+      "question": "Inspector Clawson is investigating the LCM of 6 and 9. What is it?",
+      "answer": 18,
+      "options": [12, 15, 18, 24],
+      "explanation": "LCM(6, 9) = 18. The multiples of 6 are 6,12,18... and of 9 are 9,18... The smallest common multiple is 18!",
+      "concept": "LCM"
+    },
+    {
+      "id": "nt-020",
+      "question": "Professor Tinkles is checking if 234 is divisible by 3. What is the sum of its digits?",
+      "answer": 9,
+      "options": [7, 8, 9, 10],
+      "explanation": "Sum of digits: 2 + 3 + 4 = 9. Since 9 is divisible by 3, so is 234!",
+      "concept": "Divisibility"
+    },
+    {
+      "id": "nt-021",
+      "question": "Sir Whiskersworth is studying prime numbers. Which is the smallest prime number greater than 30?",
+      "answer": 31,
+      "options": [29, 31, 33, 35],
+      "explanation": "31 is prime. 29 is also prime but smaller, 33 = 3×11, 35 = 5×7, but 31 has no divisors other than 1 and 31!",
+      "concept": "Prime Numbers"
+    },
+    {
+      "id": "nt-022",
+      "question": "Lady Pawsington needs to find all factors of 24. How many factors does 24 have?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "The factors of 24 are: 1, 2, 3, 4, 6, 8, 12, 24. That's 8 factors total!",
+      "concept": "Factors"
+    },
+    {
+      "id": "nt-023",
+      "question": "Inspector Clawson is investigating the GCD of 24 and 36. What is it?",
+      "answer": 12,
+      "options": [6, 8, 12, 18],
+      "explanation": "GCD(24, 36) = 12. The factors of 24 are 1,2,3,4,6,8,12,24 and of 36 are 1,2,3,4,6,9,12,18,36. The largest common factor is 12!",
+      "concept": "GCD"
+    },
+    {
+      "id": "nt-024",
+      "question": "Professor Tinkles is calculating the LCM of 8 and 12. What is it?",
+      "answer": 24,
+      "options": [16, 20, 24, 32],
+      "explanation": "LCM(8, 12) = 24. The multiples of 8 are 8,16,24... and of 12 are 12,24... The smallest common multiple is 24!",
+      "concept": "LCM"
+    },
+    {
+      "id": "nt-025",
+      "question": "Sir Whiskersworth is checking if 456 is divisible by 4. What are the last two digits?",
+      "answer": 56,
+      "options": [45, 46, 56, 67],
+      "explanation": "The last two digits are 56. Since 56 is divisible by 4, so is 456!",
+      "concept": "Divisibility"
+    }
+  ]
+}

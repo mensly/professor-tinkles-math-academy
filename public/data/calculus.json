@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Calculus",
+    "instructor": "Professor Tinkles",
+    "emoji": "📊",
+    "difficulty": "advanced",
+    "concepts": ["Basic Derivatives", "Linear Derivatives", "Basic Integration", "Antiderivatives", "Exponential Derivatives"]
+  },
+  "questions": [
+    {
+      "id": "calc-001",
+      "question": "Professor Tinkles is tracking how fast his cat's tail moves. If the position is f(x) = x², what is the derivative at x = 2?",
+      "answer": 4,
+      "options": [2, 4, 6, 8],
+      "explanation": "The derivative of x² is 2x. At x = 2, the derivative is 2(2) = 4. This tells us how fast the tail is moving!",
+      "concept": "Basic Derivatives"
+    },
+    {
+      "id": "calc-002",
+      "question": "Sir Whiskersworth wants to find the slope of his garden path. If the path is described by f(x) = 3x + 1, what is the slope?",
+      "answer": 3,
+      "options": [1, 2, 3, 4],
+      "explanation": "The derivative of 3x + 1 is 3. The slope of a linear function is constant - Sir Whiskersworth's path has a steady incline!",
+      "concept": "Linear Derivatives"
+    },
+    {
+      "id": "calc-003",
+      "question": "Lady Pawsington is calculating the area under her favorite curve f(x) = x from 0 to 4. What is this area?",
+      "answer": 8,
+      "options": [4, 6, 8, 10],
+      "explanation": "The area under f(x) = x from 0 to 4 is ∫₀⁴ x dx = [x²/2]₀⁴ = 16/2 - 0 = 8. A perfect triangular area!",
+      "concept": "Basic Integration"
+    },
+    {
+      "id": "calc-004",
+      "question": "Inspector Clawson is investigating a case where the rate of change is f'(x) = 2x. If f(0) = 3, what is f(2)?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "Since f'(x) = 2x, we have f(x) = x² + C. With f(0) = 3, we get C = 3. So f(2) = 2² + 3 = 7. Elementary, my dear student!",
+      "concept": "Antiderivatives"
+    },
+    {
+      "id": "calc-005",
+      "question": "Professor Tinkles is studying the rate at which tea cools. If the temperature is T(t) = 80e^(-0.1t), what is the rate of cooling at t = 0?",
+      "answer": -8,
+      "options": [-6, -8, -10, -12],
+      "explanation": "The derivative of 80e^(-0.1t) is 80(-0.1)e^(-0.1t) = -8e^(-0.1t). At t = 0, this gives -8. The tea is cooling at 8 degrees per minute!",
+      "concept": "Exponential Derivatives"
+    },
+    {
+      "id": "calc-006",
+      "question": "Sir Whiskersworth is measuring the growth of his garden. If the height is h(t) = 2t² + 3t + 1, what is the growth rate at t = 1?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "The derivative of 2t² + 3t + 1 is 4t + 3. At t = 1, the growth rate is 4(1) + 3 = 7. The garden is growing steadily!",
+      "concept": "Basic Derivatives"
+    },
+    {
+      "id": "calc-007",
+      "question": "Lady Pawsington is analyzing a function f(x) = 5x + 2. What is the derivative?",
+      "answer": 5,
+      "options": [2, 5, 7, 10],
+      "explanation": "The derivative of 5x + 2 is 5. The slope is constant - Lady Pawsington's function has a steady rate of change!",
+      "concept": "Linear Derivatives"
+    },
+    {
+      "id": "calc-008",
+      "question": "Inspector Clawson is calculating the area under f(x) = 2x from 1 to 3. What is this area?",
+      "answer": 8,
+      "options": [4, 6, 8, 10],
+      "explanation": "The area is ∫₁³ 2x dx = [x²]₁³ = 9 - 1 = 8. Inspector Clawson has found the area of his evidence!",
+      "concept": "Basic Integration"
+    },
+    {
+      "id": "calc-009",
+      "question": "Professor Tinkles is studying a function where f'(x) = 3x². If f(0) = 1, what is f(1)?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "Since f'(x) = 3x², we have f(x) = x³ + C. With f(0) = 1, we get C = 1. So f(1) = 1³ + 1 = 2. Perfect calculus!",
+      "concept": "Antiderivatives"
+    },
+    {
+      "id": "calc-010",
+      "question": "Sir Whiskersworth is tracking the decay of a radioactive element. If A(t) = 100e^(-0.05t), what is the decay rate at t = 0?",
+      "answer": -5,
+      "options": [-3, -5, -7, -10],
+      "explanation": "The derivative of 100e^(-0.05t) is 100(-0.05)e^(-0.05t) = -5e^(-0.05t). At t = 0, this gives -5. The element is decaying at 5 units per time!",
+      "concept": "Exponential Derivatives"
+    },
+    {
+      "id": "calc-011",
+      "question": "Lady Pawsington is analyzing f(x) = x³. What is the derivative at x = 2?",
+      "answer": 12,
+      "options": [6, 8, 12, 16],
+      "explanation": "The derivative of x³ is 3x². At x = 2, the derivative is 3(2)² = 12. Lady Pawsington has calculated the instantaneous rate of change!",
+      "concept": "Basic Derivatives"
+    },
+    {
+      "id": "calc-012",
+      "question": "Inspector Clawson is investigating a linear function f(x) = 4x - 1. What is the slope?",
+      "answer": 4,
+      "options": [1, 2, 4, 8],
+      "explanation": "The derivative of 4x - 1 is 4. The slope is constant - Inspector Clawson's function has a steady rate of change!",
+      "concept": "Linear Derivatives"
+    },
+    {
+      "id": "calc-013",
+      "question": "Professor Tinkles is calculating the area under f(x) = 3x² from 0 to 2. What is this area?",
+      "answer": 8,
+      "options": [4, 6, 8, 12],
+      "explanation": "The area is ∫₀² 3x² dx = [x³]₀² = 8 - 0 = 8. Professor Tinkles has found the area under his curve!",
+      "concept": "Basic Integration"
+    },
+    {
+      "id": "calc-014",
+      "question": "Sir Whiskersworth is studying a function where f'(x) = 4x. If f(0) = 2, what is f(1)?",
+      "answer": 4,
+      "options": [2, 3, 4, 5],
+      "explanation": "Since f'(x) = 4x, we have f(x) = 2x² + C. With f(0) = 2, we get C = 2. So f(1) = 2(1)² + 2 = 4. Sir Whiskersworth has solved the antiderivative!",
+      "concept": "Antiderivatives"
+    },
+    {
+      "id": "calc-015",
+      "question": "Lady Pawsington is analyzing an exponential function f(x) = 2e^(3x). What is the derivative at x = 0?",
+      "answer": 6,
+      "options": [2, 4, 6, 8],
+      "explanation": "The derivative of 2e^(3x) is 2(3)e^(3x) = 6e^(3x). At x = 0, this gives 6e^0 = 6. Lady Pawsington has mastered exponential derivatives!",
+      "concept": "Exponential Derivatives"
+    },
+    {
+      "id": "calc-016",
+      "question": "Professor Tinkles is studying f(x) = x⁴. What is the derivative at x = 1?",
+      "answer": 4,
+      "options": [1, 2, 4, 8],
+      "explanation": "The derivative of x⁴ is 4x³. At x = 1, the derivative is 4(1)³ = 4. Professor Tinkles has calculated the instantaneous rate of change!",
+      "concept": "Basic Derivatives"
+    },
+    {
+      "id": "calc-017",
+      "question": "Sir Whiskersworth is analyzing a linear function f(x) = 6x - 2. What is the slope?",
+      "answer": 6,
+      "options": [2, 4, 6, 8],
+      "explanation": "The derivative of 6x - 2 is 6. The slope is constant - Sir Whiskersworth's function has a steady rate of change!",
+      "concept": "Linear Derivatives"
+    },
+    {
+      "id": "calc-018",
+      "question": "Lady Pawsington is calculating the area under f(x) = 2x from 0 to 3. What is this area?",
+      "answer": 9,
+      "options": [6, 8, 9, 12],
+      "explanation": "The area is ∫₀³ 2x dx = [x²]₀³ = 9 - 0 = 9. Lady Pawsington has found the area under her curve!",
+      "concept": "Basic Integration"
+    },
+    {
+      "id": "calc-019",
+      "question": "Inspector Clawson is investigating a function where f'(x) = 5x. If f(0) = 1, what is f(1)?",
+      "answer": 3.5,
+      "options": [2.5, 3.5, 4.5, 5.5],
+      "explanation": "Since f'(x) = 5x, we have f(x) = 2.5x² + C. With f(0) = 1, we get C = 1. So f(1) = 2.5(1)² + 1 = 3.5. Elementary, my dear student!",
+      "concept": "Antiderivatives"
+    },
+    {
+      "id": "calc-020",
+      "question": "Professor Tinkles is studying the rate at which tea cools. If T(t) = 100e^(-0.2t), what is the rate of cooling at t = 0?",
+      "answer": -20,
+      "options": [-15, -20, -25, -30],
+      "explanation": "The derivative of 100e^(-0.2t) is 100(-0.2)e^(-0.2t) = -20e^(-0.2t). At t = 0, this gives -20. The tea is cooling at 20 degrees per minute!",
+      "concept": "Exponential Derivatives"
+    },
+    {
+      "id": "calc-021",
+      "question": "Sir Whiskersworth is analyzing f(x) = x⁵. What is the derivative at x = 2?",
+      "answer": 80,
+      "options": [40, 60, 80, 100],
+      "explanation": "The derivative of x⁵ is 5x⁴. At x = 2, the derivative is 5(2)⁴ = 5(16) = 80. Sir Whiskersworth has calculated the instantaneous rate of change!",
+      "concept": "Basic Derivatives"
+    },
+    {
+      "id": "calc-022",
+      "question": "Lady Pawsington is analyzing a linear function f(x) = 8x + 3. What is the slope?",
+      "answer": 8,
+      "options": [3, 5, 8, 11],
+      "explanation": "The derivative of 8x + 3 is 8. The slope is constant - Lady Pawsington's function has a steady rate of change!",
+      "concept": "Linear Derivatives"
+    },
+    {
+      "id": "calc-023",
+      "question": "Inspector Clawson is calculating the area under f(x) = 4x² from 0 to 2. What is this area?",
+      "answer": 10.67,
+      "options": [8, 10.67, 12, 16],
+      "explanation": "The area is ∫₀² 4x² dx = [4x³/3]₀² = 32/3 ≈ 10.67. Inspector Clawson has found the area under his curve!",
+      "concept": "Basic Integration"
+    },
+    {
+      "id": "calc-024",
+      "question": "Professor Tinkles is investigating a function where f'(x) = 6x². If f(0) = 2, what is f(1)?",
+      "answer": 4,
+      "options": [2, 4, 6, 8],
+      "explanation": "Since f'(x) = 6x², we have f(x) = 2x³ + C. With f(0) = 2, we get C = 2. So f(1) = 2(1)³ + 2 = 4. Perfect calculus!",
+      "concept": "Antiderivatives"
+    },
+    {
+      "id": "calc-025",
+      "question": "Sir Whiskersworth is studying a radioactive decay function A(t) = 50e^(-0.1t). What is the decay rate at t = 0?",
+      "answer": -5,
+      "options": [-3, -5, -7, -10],
+      "explanation": "The derivative of 50e^(-0.1t) is 50(-0.1)e^(-0.1t) = -5e^(-0.1t). At t = 0, this gives -5. The element is decaying at 5 units per time!",
+      "concept": "Exponential Derivatives"
+    }
+  ]
+}

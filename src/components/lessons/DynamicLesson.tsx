@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, XCircle, RotateCcw, Trophy } from 'lucide-react';
-import { BaseLessonProps } from '../../types/lesson';
+import { loadLessonQuestions, LoadedLesson } from '../../utils/questionLoader';
+import { DynamicLessonProps, DifficultyLevel } from '../../types/lesson';
 import { getDifficultyStars, getDifficultyColor } from '../../utils/difficultyUtils';
 
-const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }) => {
+const DynamicLesson: React.FC<DynamicLessonProps> = ({ lesson, onComplete, onTeaTime }) => {
+  const [loadedLesson, setLoadedLesson] = useState<LoadedLesson | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [currentProblem, setCurrentProblem] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -12,11 +16,27 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
   const [isCorrect, setIsCorrect] = useState(false);
   const [completed, setCompleted] = useState(false);
 
+  useEffect(() => {
+    const loadLesson = async () => {
+      try {
+        setLoading(true);
+        const data = await loadLessonQuestions(lesson.lessonName, lesson.questionCount || 5);
+        setLoadedLesson(data);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to load lesson');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadLesson();
+  }, [lesson.lessonName, lesson.questionCount]);
+
   const handleAnswerSelect = (answer: number) => {
-    if (showResult) return;
+    if (showResult || !loadedLesson) return;
     
     setSelectedAnswer(answer);
-    const correct = answer === lesson.problems[currentProblem].answer;
+    const correct = answer === loadedLesson.problems[currentProblem].answer;
     setIsCorrect(correct);
     setShowResult(true);
     
@@ -26,7 +46,9 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
   };
 
   const handleNext = () => {
-    if (currentProblem < lesson.problems.length - 1) {
+    if (!loadedLesson) return;
+    
+    if (currentProblem < loadedLesson.problems.length - 1) {
       setCurrentProblem(currentProblem + 1);
       setSelectedAnswer(null);
       setShowResult(false);
@@ -46,17 +68,30 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
     setCompleted(false);
   };
 
-  const getScoreMessage = () => {
-    return lesson.getScoreMessage(score, lesson.problems.length);
-  };
+  if (loading) {
+    return (
+      <div className="lesson-loading">
+        <div className="loading-spinner">
+          <div className="spinner"></div>
+          <p>Loading lesson questions...</p>
+        </div>
+      </div>
+    );
+  }
 
-  const getCorrectMessage = () => {
-    return lesson.getCorrectMessage(isCorrect);
-  };
-
-  const getIncorrectMessage = () => {
-    return lesson.getIncorrectMessage(isCorrect);
-  };
+  if (error || !loadedLesson) {
+    return (
+      <div className="lesson-error">
+        <div className="error-message">
+          <h3>Oops! Something went wrong</h3>
+          <p>{error || 'Failed to load lesson data'}</p>
+          <button onClick={() => window.location.reload()} className="btn-primary">
+            Try Again
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (completed) {
     return (
@@ -68,11 +103,11 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
       >
         <div className="completion-card">
           <Trophy size={64} className="trophy-icon" />
-          <h2>{lesson.title} Complete!</h2>
-          <p className="score-message">{getScoreMessage()}</p>
+          <h2>{loadedLesson.title} Lesson Complete!</h2>
+          <p className="score-message">{lesson.getScoreMessage(score, loadedLesson.problems.length)}</p>
           <div className="score-display">
             <span className="score">{score}</span>
-            <span className="total">/ {lesson.problems.length}</span>
+            <span className="total">/ {loadedLesson.problems.length}</span>
           </div>
           <div className="completion-actions">
             <button onClick={handleRestart} className="btn-secondary">
@@ -88,7 +123,7 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
     );
   }
 
-  const currentProblemData = lesson.problems[currentProblem];
+  const currentProblemData = loadedLesson.problems[currentProblem];
 
   return (
     <motion.div
@@ -99,24 +134,24 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
     >
       <div className="lesson-header">
         <div className="lesson-title-section">
-          <h2>{lesson.emoji} {lesson.title} with {lesson.instructor}</h2>
+          <h2>{loadedLesson.emoji} {loadedLesson.title} with {loadedLesson.instructor}</h2>
           <div 
             className="difficulty-badge"
-            style={{ backgroundColor: getDifficultyColor(lesson.difficulty) }}
+            style={{ backgroundColor: getDifficultyColor(loadedLesson.difficulty) }}
           >
-            <span className="difficulty-text">{lesson.difficulty.toUpperCase()}</span>
+            <span className="difficulty-text">{loadedLesson.difficulty.toUpperCase()}</span>
             <div className="difficulty-stars">
-              {getDifficultyStars(lesson.difficulty)}
+              {getDifficultyStars(loadedLesson.difficulty)}
             </div>
           </div>
         </div>
         <div className="progress-bar">
           <div 
             className="progress-fill" 
-            style={{ width: `${((currentProblem + 1) / lesson.problems.length) * 100}%` }}
+            style={{ width: `${((currentProblem + 1) / loadedLesson.problems.length) * 100}%` }}
           />
         </div>
-        <p className="progress-text">Question {currentProblem + 1} of {lesson.problems.length}</p>
+        <p className="progress-text">Question {currentProblem + 1} of {loadedLesson.problems.length}</p>
       </div>
 
       <div className="problem-container">
@@ -127,18 +162,10 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3 }}
         >
-          {/* Concept Display (for lessons that have concepts) */}
-          {currentProblemData.concept && lesson.getConceptIcon && (
+          {lesson.getConceptIcon && (
             <div className="concept-display">
               {lesson.getConceptIcon(currentProblemData.concept)}
               <span className="concept-label">{currentProblemData.concept}</span>
-            </div>
-          )}
-
-          {/* Shape Display (for geometry lessons) */}
-          {currentProblemData.shape && lesson.getShapeIcon && (
-            <div className="shape-display">
-              {lesson.getShapeIcon(currentProblemData.shape)}
             </div>
           )}
           
@@ -185,12 +212,12 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
                     <XCircle size={24} className="feedback-icon" />
                   )}
                   <span className="feedback-text">
-                    {isCorrect ? getCorrectMessage() : getIncorrectMessage()}
+                    {isCorrect ? lesson.getCorrectMessage(true) : lesson.getIncorrectMessage(false)}
                   </span>
                 </div>
                 <p className="explanation">{currentProblemData.explanation}</p>
                 <button onClick={handleNext} className="btn-primary">
-                  {currentProblem < lesson.problems.length - 1 ? 'Next Question' : 'Complete Lesson'}
+                  {currentProblem < loadedLesson.problems.length - 1 ? 'Next Question' : 'Complete Lesson'}
                 </button>
               </motion.div>
             )}
@@ -201,4 +228,4 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
   );
 };
 
-export default BaseLesson;
+export default DynamicLesson;

@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Discrete Mathematics",
+    "instructor": "Inspector Clawson",
+    "emoji": "🔍",
+    "difficulty": "advanced",
+    "concepts": ["Permutations", "Combinations", "Logic", "Graphs", "Counting"]
+  },
+  "questions": [
+    {
+      "id": "dm-001",
+      "question": "Inspector Clawson has 3 suspects: Alice, Bob, Charlie. In how many ways can he interview them in order?",
+      "answer": 6,
+      "options": [3, 6, 9, 12],
+      "explanation": "This is a permutation: 3! = 3 × 2 × 1 = 6 ways. ABC, ACB, BAC, BCA, CAB, CBA!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-002",
+      "question": "Professor Tinkles wants to choose 2 books from 5 available books. How many combinations are possible?",
+      "answer": 10,
+      "options": [5, 10, 15, 20],
+      "explanation": "This is a combination: C(5,2) = 5! ÷ (2! × 3!) = 120 ÷ 12 = 10 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-003",
+      "question": "Sir Whiskersworth is solving a logic puzzle. If 'All cats are animals' and 'Fluffy is a cat', what can we conclude?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that Fluffy is an animal. This follows from the logical syllogism!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-004",
+      "question": "Lady Pawsington has a graph with 4 vertices and 6 edges. What is the sum of all vertex degrees?",
+      "answer": 12,
+      "options": [6, 8, 12, 16],
+      "explanation": "In any graph, the sum of all vertex degrees equals twice the number of edges: 2 × 6 = 12!",
+      "concept": "Graphs"
+    },
+    {
+      "id": "dm-005",
+      "question": "Inspector Clawson is counting ways to arrange 4 different evidence items on a shelf. How many arrangements?",
+      "answer": 24,
+      "options": [12, 16, 24, 32],
+      "explanation": "This is a permutation: 4! = 4 × 3 × 2 × 1 = 24 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-006",
+      "question": "Professor Tinkles wants to form a committee of 3 from 6 available members. How many combinations?",
+      "answer": 20,
+      "options": [10, 15, 20, 30],
+      "explanation": "This is a combination: C(6,3) = 6! ÷ (3! × 3!) = 720 ÷ 36 = 20 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-007",
+      "question": "Sir Whiskersworth is analyzing a logical statement. If 'If it rains, then the ground is wet' and 'It is raining', what follows?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that the ground is wet. This follows from modus ponens!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-008",
+      "question": "Lady Pawsington has a complete graph with 5 vertices. How many edges does it have?",
+      "answer": 10,
+      "options": [5, 10, 15, 20],
+      "explanation": "A complete graph with n vertices has n(n-1)/2 edges. For n=5: 5×4/2 = 10 edges!",
+      "concept": "Graphs"
+    },
+    {
+      "id": "dm-009",
+      "question": "Inspector Clawson needs to arrange 5 different clues in order of importance. How many arrangements?",
+      "answer": 120,
+      "options": [60, 100, 120, 150],
+      "explanation": "This is a permutation: 5! = 5 × 4 × 3 × 2 × 1 = 120 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-010",
+      "question": "Professor Tinkles wants to choose 4 students from 8 available. How many combinations?",
+      "answer": 70,
+      "options": [40, 56, 70, 84],
+      "explanation": "This is a combination: C(8,4) = 8! ÷ (4! × 4!) = 40320 ÷ 576 = 70 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-011",
+      "question": "Sir Whiskersworth is solving a logic puzzle. If 'No birds are mammals' and 'A penguin is a bird', what can we conclude?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that a penguin is not a mammal. This follows from the logical syllogism!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-012",
+      "question": "Lady Pawsington has a tree with 6 vertices. How many edges does it have?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "A tree with n vertices has exactly n-1 edges. For n=6: 6-1 = 5 edges!",
+      "concept": "Graphs"
+    },
+    {
+      "id": "dm-013",
+      "question": "Inspector Clawson is counting ways to arrange 3 different suspects in a lineup. How many arrangements?",
+      "answer": 6,
+      "options": [3, 6, 9, 12],
+      "explanation": "This is a permutation: 3! = 3 × 2 × 1 = 6 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-014",
+      "question": "Professor Tinkles wants to choose 2 books from 4 available. How many combinations?",
+      "answer": 6,
+      "options": [4, 6, 8, 12],
+      "explanation": "This is a combination: C(4,2) = 4! ÷ (2! × 2!) = 24 ÷ 4 = 6 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-015",
+      "question": "Sir Whiskersworth is analyzing a logical statement. If 'All students study' and 'John is a student', what follows?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that John studies. This follows from the logical syllogism!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-016",
+      "question": "Professor Tinkles has 4 different books and wants to arrange them on a shelf. How many arrangements are possible?",
+      "answer": 24,
+      "options": [12, 16, 24, 32],
+      "explanation": "This is a permutation: 4! = 4 × 3 × 2 × 1 = 24 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-017",
+      "question": "Lady Pawsington wants to choose 3 students from 7 available for a committee. How many combinations?",
+      "answer": 35,
+      "options": [21, 28, 35, 42],
+      "explanation": "This is a combination: C(7,3) = 7! ÷ (3! × 4!) = 5040 ÷ 144 = 35 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-018",
+      "question": "Inspector Clawson is solving a logic puzzle. If 'If it's raining, then the ground is wet' and 'The ground is not wet', what can we conclude?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that it's not raining. This follows from modus tollens!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-019",
+      "question": "Sir Whiskersworth has a complete graph with 6 vertices. How many edges does it have?",
+      "answer": 15,
+      "options": [12, 15, 18, 24],
+      "explanation": "A complete graph with n vertices has n(n-1)/2 edges. For n=6: 6×5/2 = 15 edges!",
+      "concept": "Graphs"
+    },
+    {
+      "id": "dm-020",
+      "question": "Professor Tinkles needs to arrange 6 different evidence items in order of importance. How many arrangements?",
+      "answer": 720,
+      "options": [360, 480, 720, 960],
+      "explanation": "This is a permutation: 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-021",
+      "question": "Lady Pawsington wants to choose 4 books from 8 available. How many combinations?",
+      "answer": 70,
+      "options": [40, 56, 70, 84],
+      "explanation": "This is a combination: C(8,4) = 8! ÷ (4! × 4!) = 40320 ÷ 576 = 70 combinations!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "dm-022",
+      "question": "Inspector Clawson is analyzing a logical statement. If 'No birds are mammals' and 'A penguin is a bird', what can we conclude?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "We can conclude that a penguin is not a mammal. This follows from the logical syllogism!",
+      "concept": "Logic"
+    },
+    {
+      "id": "dm-023",
+      "question": "Sir Whiskersworth has a tree with 8 vertices. How many edges does it have?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "A tree with n vertices has exactly n-1 edges. For n=8: 8-1 = 7 edges!",
+      "concept": "Graphs"
+    },
+    {
+      "id": "dm-024",
+      "question": "Professor Tinkles is counting ways to arrange 5 different suspects in a lineup. How many arrangements?",
+      "answer": 120,
+      "options": [60, 100, 120, 150],
+      "explanation": "This is a permutation: 5! = 5 × 4 × 3 × 2 × 1 = 120 arrangements!",
+      "concept": "Permutations"
+    },
+    {
+      "id": "dm-025",
+      "question": "Lady Pawsington wants to choose 2 books from 5 available. How many combinations?",
+      "answer": 10,
+      "options": [5, 8, 10, 12],
+      "explanation": "This is a combination: C(5,2) = 5! ÷ (2! × 3!) = 120 ÷ 12 = 10 combinations!",
+      "concept": "Combinations"
+    }
+  ]
+}
