@@ -42,7 +42,7 @@ export async function loadLessonQuestions(
     // Use absolute path for GitHub Pages deployment
     const baseUrl = window.location.pathname.includes('/professor-tinkles-math-academy/') 
       ? '/professor-tinkles-math-academy' 
-      : '';
+      : '/professor-tinkles-math-academy';
     const response = await fetch(`${baseUrl}/data/${lessonName}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load lesson data: ${response.statusText}`);
