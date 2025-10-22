@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Statistics & Probability",
+    "instructor": "Lady Pawsington",
+    "emoji": "📊",
+    "difficulty": "intermediate",
+    "concepts": ["Mean", "Median", "Mode", "Probability", "Data Analysis"]
+  },
+  "questions": [
+    {
+      "id": "stat-001",
+      "question": "Lady Pawsington surveyed 5 cats about their favorite treat. The responses were: 3, 5, 3, 7, 2. What is the mean?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "Mean = (3 + 5 + 3 + 7 + 2) ÷ 5 = 20 ÷ 5 = 4. The average rating is 4!",
+      "concept": "Mean"
+    },
+    {
+      "id": "stat-002",
+      "question": "Professor Tinkles recorded the number of books read by 6 students: 2, 4, 6, 8, 10, 12. What is the median?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "Median is the middle value. With 6 numbers, we take the average of the 3rd and 4th: (6 + 8) ÷ 2 = 7!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-003",
+      "question": "Sir Whiskersworth counted garden tools: hammer, shovel, rake, hammer, shovel, hammer. What is the mode?",
+      "answer": 3,
+      "options": [1, 2, 3, 4],
+      "explanation": "The mode is the most frequent value. 'Hammer' appears 3 times, which is more than any other tool!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-004",
+      "question": "If Inspector Clawson has a bag with 3 red balls and 2 blue balls, what's the probability of drawing a red ball?",
+      "answer": 0.6,
+      "options": [0.4, 0.5, 0.6, 0.8],
+      "explanation": "Probability = favorable outcomes ÷ total outcomes = 3 ÷ 5 = 0.6 or 60%!",
+      "concept": "Probability"
+    },
+    {
+      "id": "stat-005",
+      "question": "Lady Pawsington's test scores are: 85, 90, 88, 92, 87. What is the mean score?",
+      "answer": 88.4,
+      "options": [87, 88, 88.4, 89],
+      "explanation": "Mean = (85 + 90 + 88 + 92 + 87) ÷ 5 = 442 ÷ 5 = 88.4!",
+      "concept": "Mean"
+    },
+    {
+      "id": "stat-006",
+      "question": "Professor Tinkles measured temperatures: 20, 22, 24, 26, 28. What is the median temperature?",
+      "answer": 24,
+      "options": [22, 24, 26, 28],
+      "explanation": "With 5 numbers, the median is the middle value: 24!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-007",
+      "question": "Sir Whiskersworth's garden has flowers: rose, rose, tulip, rose, daisy, rose. What is the mode?",
+      "answer": 4,
+      "options": [2, 3, 4, 5],
+      "explanation": "The mode is the most frequent flower. 'Rose' appears 4 times, which is more than any other flower!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-008",
+      "question": "If a spinner has 4 equal sections (red, blue, green, yellow), what's the probability of landing on blue?",
+      "answer": 0.25,
+      "options": [0.2, 0.25, 0.3, 0.5],
+      "explanation": "Probability = 1 ÷ 4 = 0.25 or 25%!",
+      "concept": "Probability"
+    },
+    {
+      "id": "stat-009",
+      "question": "Lady Pawsington's class has 8 students with heights: 120, 125, 130, 135, 140, 145, 150, 155. What is the median height?",
+      "answer": 137.5,
+      "options": [135, 137.5, 140, 142.5],
+      "explanation": "With 8 numbers, we take the average of the 4th and 5th: (135 + 140) ÷ 2 = 137.5!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-010",
+      "question": "Professor Tinkles recorded study hours: 2, 3, 3, 4, 4, 4, 5. What is the mode?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "The mode is 4 hours, as it appears most frequently (3 times)!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-011",
+      "question": "If Inspector Clawson rolls a fair 6-sided die, what's the probability of rolling a 3?",
+      "answer": 0.167,
+      "options": [0.15, 0.167, 0.2, 0.25],
+      "explanation": "Probability = 1 ÷ 6 ≈ 0.167 or about 16.7%!",
+      "concept": "Probability"
+    },
+    {
+      "id": "stat-012",
+      "question": "Sir Whiskersworth's garden produced: 10, 12, 14, 16, 18 tomatoes. What is the mean yield?",
+      "answer": 14,
+      "options": [12, 14, 16, 18],
+      "explanation": "Mean = (10 + 12 + 14 + 16 + 18) ÷ 5 = 70 ÷ 5 = 14 tomatoes!",
+      "concept": "Mean"
+    },
+    {
+      "id": "stat-013",
+      "question": "Lady Pawsington's quiz scores are: 7, 8, 9, 9, 10. What is the median score?",
+      "answer": 9,
+      "options": [8, 9, 10, 11],
+      "explanation": "With 5 numbers, the median is the middle value: 9!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-014",
+      "question": "Professor Tinkles has coins: penny, nickel, penny, dime, penny, quarter. What is the mode?",
+      "answer": 3,
+      "options": [1, 2, 3, 4],
+      "explanation": "The mode is 'penny' as it appears 3 times, more than any other coin!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-015",
+      "question": "If a bag contains 5 red marbles and 3 blue marbles, what's the probability of drawing a blue marble?",
+      "answer": 0.375,
+      "options": [0.3, 0.375, 0.4, 0.5],
+      "explanation": "Probability = 3 ÷ 8 = 0.375 or 37.5%!",
+      "concept": "Probability"
+    },
+    {
+      "id": "stat-016",
+      "question": "Professor Tinkles surveyed 6 cats about their favorite treat. The responses were: 4, 6, 3, 5, 4, 7. What is the mean?",
+      "answer": 4.83,
+      "options": [4.5, 4.83, 5.0, 5.5],
+      "explanation": "Mean = (4 + 6 + 3 + 5 + 4 + 7) ÷ 6 = 29 ÷ 6 ≈ 4.83. The average rating is 4.83!",
+      "concept": "Mean"
+    },
+    {
+      "id": "stat-017",
+      "question": "Sir Whiskersworth measured 8 garden plots: 10, 12, 14, 16, 18, 20, 22, 24. What is the median?",
+      "answer": 17,
+      "options": [16, 17, 18, 19],
+      "explanation": "With 8 numbers, we take the average of the 4th and 5th: (16 + 18) ÷ 2 = 17!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-018",
+      "question": "Lady Pawsington found these clue counts: 3, 4, 3, 5, 3, 4, 3, 6. What is the mode?",
+      "answer": 3,
+      "options": [3, 4, 5, 6],
+      "explanation": "The mode is 3, as it appears most frequently (4 times)!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-019",
+      "question": "Inspector Clawson recorded these temperatures: 70, 75, 80, 85, 90. What is the range?",
+      "answer": 20,
+      "options": [15, 20, 25, 30],
+      "explanation": "Range = Maximum - Minimum = 90 - 70 = 20. The temperature range is 20 degrees!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "stat-020",
+      "question": "If a spinner has 5 equal sections (red, blue, green, yellow, orange), what's the probability of landing on blue?",
+      "answer": 0.2,
+      "options": [0.15, 0.2, 0.25, 0.3],
+      "explanation": "Probability = 1 ÷ 5 = 0.2 or 20%!",
+      "concept": "Probability"
+    },
+    {
+      "id": "stat-021",
+      "question": "Professor Tinkles' test scores are: 88, 92, 85, 90, 87, 89. What is the mean score?",
+      "answer": 88.5,
+      "options": [87, 88, 88.5, 89],
+      "explanation": "Mean = (88 + 92 + 85 + 90 + 87 + 89) ÷ 6 = 531 ÷ 6 = 88.5!",
+      "concept": "Mean"
+    },
+    {
+      "id": "stat-022",
+      "question": "Sir Whiskersworth's garden heights are: 12, 15, 18, 21, 24, 27, 30. What is the median height?",
+      "answer": 21,
+      "options": [18, 21, 24, 27],
+      "explanation": "With 7 numbers, the median is the middle value: 21!",
+      "concept": "Median"
+    },
+    {
+      "id": "stat-023",
+      "question": "Lady Pawsington's book counts are: 5, 7, 5, 9, 5, 8, 5, 10. What is the mode?",
+      "answer": 5,
+      "options": [5, 7, 8, 9],
+      "explanation": "The mode is 5, as it appears most frequently (4 times)!",
+      "concept": "Mode"
+    },
+    {
+      "id": "stat-024",
+      "question": "Inspector Clawson's evidence weights are: 2, 4, 6, 8, 10, 12. What is the range?",
+      "answer": 10,
+      "options": [8, 10, 12, 14],
+      "explanation": "Range = Maximum - Minimum = 12 - 2 = 10. The weight range is 10 units!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "stat-025",
+      "question": "If a bag contains 8 red marbles and 4 blue marbles, what's the probability of drawing a red marble?",
+      "answer": 0.667,
+      "options": [0.6, 0.667, 0.7, 0.8],
+      "explanation": "Probability = 8 ÷ 12 = 0.667 or about 66.7%!",
+      "concept": "Probability"
+    }
+  ]
+}

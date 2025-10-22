@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Applied Mathematics",
+    "instructor": "Inspector Clawson",
+    "emoji": "🔬",
+    "difficulty": "advanced",
+    "concepts": ["Real-World Problems", "Optimization", "Modeling", "Data Analysis", "Problem Solving"]
+  },
+  "questions": [
+    {
+      "id": "am-001",
+      "question": "Inspector Clawson needs to optimize his patrol route. If he can visit 3 locations in 2 hours, how many locations can he visit in 8 hours?",
+      "answer": 12,
+      "options": [8, 10, 12, 16],
+      "explanation": "Rate = 3 locations/2 hours = 1.5 locations/hour. In 8 hours: 1.5 × 8 = 12 locations. The Inspector's optimization!",
+      "concept": "Optimization"
+    },
+    {
+      "id": "am-002",
+      "question": "Professor Tinkles invests $1000 at 5% annual interest. How much will he have after 3 years?",
+      "answer": 1157.63,
+      "options": [1150, 1157.63, 1160, 1200],
+      "explanation": "Compound interest: A = P(1 + r)^t = 1000(1.05)³ = 1000(1.157625) = $1157.63. Professor Tinkles' investment growth!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-003",
+      "question": "Lady Pawsington's garden has a rectangular area of 200 m². If the length is 20m, what's the width?",
+      "answer": 10,
+      "options": [8, 10, 12, 15],
+      "explanation": "Area = length × width, so 200 = 20 × width, therefore width = 10m. Lady Pawsington's garden geometry!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-004",
+      "question": "Sir Whiskersworth's car travels 240 miles in 4 hours. What's his average speed?",
+      "answer": 60,
+      "options": [50, 60, 70, 80],
+      "explanation": "Speed = distance/time = 240 miles/4 hours = 60 mph. Sir Whiskersworth's velocity calculation!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-005",
+      "question": "A population of cats grows from 100 to 150 in 2 years. What's the annual growth rate?",
+      "answer": 0.22,
+      "options": [0.18, 0.22, 0.25, 0.3],
+      "explanation": "Growth rate = (150-100)/100 = 50/100 = 0.5 over 2 years. Annual rate = 0.5/2 = 0.25, but using compound: (1.5)^(1/2) - 1 ≈ 0.22. Population modeling!",
+      "concept": "Modeling"
+    },
+    {
+      "id": "am-006",
+      "question": "Inspector Clawson analyzes crime data. If 60% of cases are solved in 24 hours, how many cases out of 50 will be solved quickly?",
+      "answer": 30,
+      "options": [25, 30, 35, 40],
+      "explanation": "60% of 50 = 0.6 × 50 = 30 cases. The Inspector's statistical analysis!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-007",
+      "question": "Professor Tinkles needs to mix solutions. If he has 2L of 20% acid and 3L of 30% acid, what's the final concentration?",
+      "answer": 26,
+      "options": [24, 26, 28, 30],
+      "explanation": "Total acid = (2 × 0.20) + (3 × 0.30) = 0.4 + 0.9 = 1.3L. Total volume = 5L. Concentration = 1.3/5 = 0.26 = 26%. Professor Tinkles' chemistry!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-008",
+      "question": "Lady Pawsington's library has 500 books. If 40% are fiction, how many are non-fiction?",
+      "answer": 300,
+      "options": [250, 300, 350, 400],
+      "explanation": "Non-fiction = 100% - 40% = 60%. 60% of 500 = 0.6 × 500 = 300 books. Lady Pawsington's library statistics!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-009",
+      "question": "Sir Whiskersworth's business has fixed costs of $2000 and variable costs of $5 per item. What's the total cost for 100 items?",
+      "answer": 2500,
+      "options": [2000, 2500, 3000, 3500],
+      "explanation": "Total cost = Fixed + Variable = $2000 + ($5 × 100) = $2000 + $500 = $2500. Sir Whiskersworth's cost analysis!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-010",
+      "question": "A temperature model shows T(t) = 20 + 5t, where t is hours. What's the temperature after 3 hours?",
+      "answer": 35,
+      "options": [30, 35, 40, 45],
+      "explanation": "T(3) = 20 + 5(3) = 20 + 15 = 35°C. Mathematical modeling in action!",
+      "concept": "Modeling"
+    },
+    {
+      "id": "am-011",
+      "question": "Inspector Clawson's evidence shows a 15% increase in cases each month. If he starts with 20 cases, how many will he have after 2 months?",
+      "answer": 26.45,
+      "options": [23, 26.45, 30, 35],
+      "explanation": "After 1 month: 20 × 1.15 = 23. After 2 months: 23 × 1.15 = 26.45. The Inspector's exponential growth!",
+      "concept": "Modeling"
+    },
+    {
+      "id": "am-012",
+      "question": "Professor Tinkles' class has 30 students. If 70% pass the exam, how many students pass?",
+      "answer": 21,
+      "options": [18, 21, 24, 27],
+      "explanation": "70% of 30 = 0.7 × 30 = 21 students. Professor Tinkles' educational statistics!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-013",
+      "question": "Lady Pawsington's recipe calls for 2 cups of flour for 4 servings. How much flour for 10 servings?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "Rate = 2 cups/4 servings = 0.5 cups per serving. For 10 servings: 0.5 × 10 = 5 cups. Lady Pawsington's culinary math!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-014",
+      "question": "Sir Whiskersworth's investment grows by 8% annually. If he invests $5000, what's the value after 2 years?",
+      "answer": 5832,
+      "options": [5400, 5832, 6000, 6400],
+      "explanation": "A = P(1 + r)^t = 5000(1.08)² = 5000(1.1664) = $5832. Sir Whiskersworth's compound interest!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-015",
+      "question": "A survey shows 45% of cats prefer fish, 35% prefer chicken, and 20% prefer beef. If 200 cats were surveyed, how many prefer fish?",
+      "answer": 90,
+      "options": [80, 90, 100, 110],
+      "explanation": "45% of 200 = 0.45 × 200 = 90 cats. Survey data analysis!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-016",
+      "question": "Inspector Clawson's case load increases by 10 cases per week. If he starts with 50 cases, how many will he have after 4 weeks?",
+      "answer": 90,
+      "options": [80, 90, 100, 110],
+      "explanation": "Linear growth: 50 + (10 × 4) = 50 + 40 = 90 cases. The Inspector's workload modeling!",
+      "concept": "Modeling"
+    },
+    {
+      "id": "am-017",
+      "question": "Professor Tinkles' tea temperature cools from 80°C to 60°C in 10 minutes. What's the cooling rate?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "Cooling rate = (80-60)/10 = 20/10 = 2°C per minute. Professor Tinkles' thermal analysis!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-018",
+      "question": "Lady Pawsington's garden produces 5 tomatoes per plant. If she has 12 plants, how many tomatoes total?",
+      "answer": 60,
+      "options": [50, 60, 70, 80],
+      "explanation": "Total tomatoes = 5 × 12 = 60. Lady Pawsington's agricultural math!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-019",
+      "question": "Sir Whiskersworth's car depreciates by 15% each year. If it's worth $20,000 now, what will it be worth in 2 years?",
+      "answer": 14450,
+      "options": [14000, 14450, 15000, 16000],
+      "explanation": "Value after 1 year: 20000 × 0.85 = 17000. After 2 years: 17000 × 0.85 = 14450. Sir Whiskersworth's depreciation!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-020",
+      "question": "A population model shows P(t) = 1000e^(0.02t). What's the population after 5 years?",
+      "answer": 1105.17,
+      "options": [1050, 1105.17, 1150, 1200],
+      "explanation": "P(5) = 1000e^(0.02×5) = 1000e^0.1 ≈ 1000(1.10517) = 1105.17. Exponential population growth!",
+      "concept": "Modeling"
+    },
+    {
+      "id": "am-021",
+      "question": "Inspector Clawson's success rate is 85%. If he investigates 20 cases, how many will he solve?",
+      "answer": 17,
+      "options": [15, 17, 18, 20],
+      "explanation": "85% of 20 = 0.85 × 20 = 17 cases. The Inspector's success statistics!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-022",
+      "question": "Professor Tinkles' class attendance is 90% on average. If 25 students are enrolled, how many typically attend?",
+      "answer": 22.5,
+      "options": [20, 22.5, 25, 27],
+      "explanation": "90% of 25 = 0.9 × 25 = 22.5 students. Professor Tinkles' attendance analysis!",
+      "concept": "Data Analysis"
+    },
+    {
+      "id": "am-023",
+      "question": "Lady Pawsington's recipe scales linearly. If 2 cups serve 4 people, how many cups for 6 people?",
+      "answer": 3,
+      "options": [2.5, 3, 3.5, 4],
+      "explanation": "Rate = 2 cups/4 people = 0.5 cups per person. For 6 people: 0.5 × 6 = 3 cups. Lady Pawsington's scaling!",
+      "concept": "Real-World Problems"
+    },
+    {
+      "id": "am-024",
+      "question": "Sir Whiskersworth's business profit is P(x) = 50x - 1000, where x is items sold. How many items for $2000 profit?",
+      "answer": 60,
+      "options": [50, 60, 70, 80],
+      "explanation": "2000 = 50x - 1000, so 3000 = 50x, therefore x = 60 items. Sir Whiskersworth's profit optimization!",
+      "concept": "Optimization"
+    },
+    {
+      "id": "am-025",
+      "question": "A data set has mean 50 and standard deviation 10. What percentage of values are between 40 and 60?",
+      "answer": 68,
+      "options": [50, 68, 75, 95],
+      "explanation": "This is within 1 standard deviation of the mean, which contains approximately 68% of data in a normal distribution. Statistical analysis!",
+      "concept": "Data Analysis"
+    }
+  ]
+}

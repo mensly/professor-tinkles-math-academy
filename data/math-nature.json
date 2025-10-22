@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Math in Nature",
+    "instructor": "Professor Tinkles",
+    "emoji": "🌿",
+    "difficulty": "expert",
+    "concepts": ["Fibonacci Sequence", "Golden Ratio", "Fractals", "Symmetry", "Patterns"]
+  },
+  "questions": [
+    {
+      "id": "mn-001",
+      "question": "Professor Tinkles observes a sunflower with 34 spirals in one direction and 55 in another. What's the ratio 55/34?",
+      "answer": 1.618,
+      "options": [1.5, 1.618, 1.75, 2.0],
+      "explanation": "55/34 ≈ 1.618, which is the golden ratio φ! Sunflowers follow Fibonacci spirals in nature.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-002",
+      "question": "Lady Pawsington counts pinecone spirals: 8 in one direction, 13 in another. What Fibonacci numbers are these?",
+      "answer": 0.62,
+      "options": [0.5, 0.62, 0.67, 0.75],
+      "explanation": "8 and 13 are consecutive Fibonacci numbers! 8/13 ≈ 0.615, approaching the golden ratio.",
+      "concept": "Fibonacci Sequence"
+    },
+    {
+      "id": "mn-003",
+      "question": "Sir Whiskersworth measures a nautilus shell. The ratio of consecutive chamber sizes is 1.618. What is this called?",
+      "answer": 1.618,
+      "options": [1.5, 1.618, 1.75, 2.0],
+      "explanation": "1.618 is the golden ratio φ! Nautilus shells grow in golden ratio proportions.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-004",
+      "question": "Inspector Clawson finds a leaf with 5-fold symmetry. How many lines of symmetry does it have?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "5-fold symmetry means 5 lines of symmetry. Many flowers and leaves show this pattern!",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-005",
+      "question": "Professor Tinkles observes a tree branch that splits into 2, then each splits into 2 again. How many branches after 3 levels?",
+      "answer": 8,
+      "options": [4, 6, 8, 10],
+      "explanation": "2³ = 8 branches. This is exponential growth, common in tree branching patterns!",
+      "concept": "Patterns"
+    },
+    {
+      "id": "mn-006",
+      "question": "Lady Pawsington studies a snowflake with 6-fold symmetry. What angle between each arm?",
+      "answer": 60,
+      "options": [45, 60, 90, 120],
+      "explanation": "360° ÷ 6 = 60°. Snowflakes exhibit perfect 6-fold symmetry due to water crystal structure!",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-007",
+      "question": "Sir Whiskersworth finds a seashell with spiral growth. If each turn is 137.5° from the last, what's this angle called?",
+      "answer": 137.5,
+      "options": [120, 137.5, 144, 150],
+      "explanation": "137.5° is the golden angle! It's 360° divided by the golden ratio φ, creating optimal packing in nature.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-008",
+      "question": "Inspector Clawson examines a honeycomb. What shape do the cells form?",
+      "answer": 6,
+      "options": [4, 6, 8, 12],
+      "explanation": "Honeycomb cells are hexagonal (6-sided)! This is the most efficient way to pack circles in 2D space.",
+      "concept": "Patterns"
+    },
+    {
+      "id": "mn-009",
+      "question": "Professor Tinkles counts flower petals: 3, 5, 8, 13, 21. What sequence is this?",
+      "answer": 0.62,
+      "options": [0.5, 0.62, 0.67, 0.75],
+      "explanation": "This is the Fibonacci sequence! Each number is the sum of the previous two: 3+5=8, 5+8=13, 8+13=21.",
+      "concept": "Fibonacci Sequence"
+    },
+    {
+      "id": "mn-010",
+      "question": "Lady Pawsington measures a pinecone. It has 5 spirals one way and 8 the other. What's the ratio?",
+      "answer": 1.6,
+      "options": [1.4, 1.6, 1.8, 2.0],
+      "explanation": "8/5 = 1.6, which is close to the golden ratio φ ≈ 1.618. Pinecones follow Fibonacci patterns!",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-011",
+      "question": "Sir Whiskersworth observes a fern frond. Each branch splits into 2, creating a fractal pattern. How many branches at level 4?",
+      "answer": 16,
+      "options": [8, 12, 16, 20],
+      "explanation": "2⁴ = 16 branches. Ferns exhibit fractal growth, where each part resembles the whole!",
+      "concept": "Fractals"
+    },
+    {
+      "id": "mn-012",
+      "question": "Inspector Clawson studies a starfish. How many arms does it typically have?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "Starfish typically have 5 arms, exhibiting pentagonal symmetry! This is common in echinoderms.",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-013",
+      "question": "Professor Tinkles examines a tree trunk. The ratio of trunk diameter to branch diameter is 1.618. What is this?",
+      "answer": 1.618,
+      "options": [1.5, 1.618, 1.75, 2.0],
+      "explanation": "1.618 is the golden ratio φ! Trees often follow golden ratio proportions in their branching structure.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-014",
+      "question": "Lady Pawsington counts flower petals: 1, 1, 2, 3, 5, 8. What's the next number?",
+      "answer": 13,
+      "options": [10, 11, 12, 13],
+      "explanation": "The next Fibonacci number is 13! Each number is the sum of the previous two: 5+8=13.",
+      "concept": "Fibonacci Sequence"
+    },
+    {
+      "id": "mn-015",
+      "question": "Sir Whiskersworth finds a crystal with cubic symmetry. How many faces does a cube have?",
+      "answer": 6,
+      "options": [4, 6, 8, 12],
+      "explanation": "A cube has 6 faces! Cubic crystals like salt exhibit this perfect geometric symmetry.",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-016",
+      "question": "Inspector Clawson examines a leaf vein pattern. It branches like a fractal tree. How many levels of branching are visible?",
+      "answer": 4,
+      "options": [2, 3, 4, 5],
+      "explanation": "Leaf veins typically show 3-4 levels of fractal branching, creating efficient transport networks!",
+      "concept": "Fractals"
+    },
+    {
+      "id": "mn-017",
+      "question": "Professor Tinkles measures a pinecone spiral. The ratio of consecutive turns is 0.618. What is this?",
+      "answer": 0.618,
+      "options": [0.5, 0.618, 0.67, 0.75],
+      "explanation": "0.618 is 1/φ, the reciprocal of the golden ratio! This creates optimal packing in pinecone spirals.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-018",
+      "question": "Lady Pawsington studies a butterfly wing. It has bilateral symmetry. How many lines of symmetry?",
+      "answer": 1,
+      "options": [1, 2, 3, 4],
+      "explanation": "Bilateral symmetry means 1 line of symmetry (left-right mirror image). Most animals exhibit this!",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-019",
+      "question": "Sir Whiskersworth observes a tree's root system. It branches like a fractal. If each branch splits into 3, how many roots at level 3?",
+      "answer": 27,
+      "options": [9, 18, 27, 36],
+      "explanation": "3³ = 27 roots. Tree roots exhibit fractal branching for maximum soil exploration!",
+      "concept": "Fractals"
+    },
+    {
+      "id": "mn-020",
+      "question": "Inspector Clawson finds a seashell with logarithmic spiral growth. The growth factor is 1.618. What is this?",
+      "answer": 1.618,
+      "options": [1.5, 1.618, 1.75, 2.0],
+      "explanation": "1.618 is the golden ratio φ! Logarithmic spirals in nature often use the golden ratio for optimal growth.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-021",
+      "question": "Professor Tinkles counts flower petals: 1, 1, 2, 3, 5, 8, 13, 21. What's the ratio of consecutive numbers?",
+      "answer": 1.618,
+      "options": [1.5, 1.618, 1.75, 2.0],
+      "explanation": "21/13 ≈ 1.615, approaching the golden ratio φ ≈ 1.618. Fibonacci ratios converge to φ!",
+      "concept": "Fibonacci Sequence"
+    },
+    {
+      "id": "mn-022",
+      "question": "Lady Pawsington examines a snowflake. It has 6-fold rotational symmetry. What angle of rotation?",
+      "answer": 60,
+      "options": [45, 60, 90, 120],
+      "explanation": "360° ÷ 6 = 60°. Snowflakes rotate 60° to look identical due to water's hexagonal crystal structure!",
+      "concept": "Symmetry"
+    },
+    {
+      "id": "mn-023",
+      "question": "Sir Whiskersworth studies a fern. Each frond is a fractal copy of the whole. How many self-similar parts at level 3?",
+      "answer": 8,
+      "options": [4, 6, 8, 12],
+      "explanation": "2³ = 8 self-similar parts. Ferns are perfect examples of fractal geometry in nature!",
+      "concept": "Fractals"
+    },
+    {
+      "id": "mn-024",
+      "question": "Inspector Clawson measures a flower's petal arrangement. The angle between petals is 137.5°. What is this?",
+      "answer": 137.5,
+      "options": [120, 137.5, 144, 150],
+      "explanation": "137.5° is the golden angle! It's 360° divided by φ², creating optimal petal spacing in flowers.",
+      "concept": "Golden Ratio"
+    },
+    {
+      "id": "mn-025",
+      "question": "Professor Tinkles observes a tree's branching pattern. Each branch splits into 2, creating a fractal tree. How many branches at level 5?",
+      "answer": 32,
+      "options": [16, 24, 32, 40],
+      "explanation": "2⁵ = 32 branches. Trees use fractal branching to maximize leaf exposure to sunlight!",
+      "concept": "Fractals"
+    }
+  ]
+}

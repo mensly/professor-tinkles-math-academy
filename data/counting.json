@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Counting",
+    "instructor": "Professor Tinkles",
+    "emoji": "🔢",
+    "difficulty": "beginner",
+    "concepts": ["Basic Addition", "Basic Subtraction", "Basic Multiplication", "Basic Division", "Skip Counting"]
+  },
+  "questions": [
+    {
+      "id": "c-001",
+      "question": "Professor Tinkles has 3 teacups on his desk. If he adds 2 more, how many teacups does he have in total?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "3 + 2 = 5. Professor Tinkles now has 5 teacups on his desk!",
+      "concept": "Basic Addition"
+    },
+    {
+      "id": "c-002",
+      "question": "Sir Whiskersworth is counting his garden tools. He has 7 tools and gives away 3. How many tools does he have left?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "7 - 3 = 4. Sir Whiskersworth has 4 garden tools remaining!",
+      "concept": "Basic Subtraction"
+    },
+    {
+      "id": "c-003",
+      "question": "Lady Pawsington is organizing her books. She has 2 shelves with 4 books each. How many books does she have in total?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "2 shelves × 4 books = 8 books. Lady Pawsington has 8 books in her collection!",
+      "concept": "Basic Multiplication"
+    },
+    {
+      "id": "c-004",
+      "question": "Inspector Clawson found 12 clues in his investigation. If he divides them equally among 3 cases, how many clues per case?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "12 ÷ 3 = 4. Each case gets 4 clues. Elementary, my dear student!",
+      "concept": "Basic Division"
+    },
+    {
+      "id": "c-005",
+      "question": "Professor Tinkles is counting by 2s: 2, 4, 6, 8, ?. What comes next?",
+      "answer": 10,
+      "options": [9, 10, 11, 12],
+      "explanation": "Counting by 2s: 2, 4, 6, 8, 10. The next number is 10!",
+      "concept": "Skip Counting"
+    },
+    {
+      "id": "c-006",
+      "question": "Sir Whiskersworth has 5 flower pots. He buys 3 more. How many flower pots does he have now?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "5 + 3 = 8. Sir Whiskersworth now has 8 flower pots in his garden!",
+      "concept": "Basic Addition"
+    },
+    {
+      "id": "c-007",
+      "question": "Lady Pawsington has 9 algebra books. She lends 2 to a friend. How many books does she have left?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "9 - 2 = 7. Lady Pawsington has 7 algebra books remaining!",
+      "concept": "Basic Subtraction"
+    },
+    {
+      "id": "c-008",
+      "question": "Inspector Clawson has 3 boxes with 5 clues each. How many clues does he have in total?",
+      "answer": 15,
+      "options": [12, 13, 14, 15],
+      "explanation": "3 boxes × 5 clues = 15 clues. Inspector Clawson has 15 clues in total!",
+      "concept": "Basic Multiplication"
+    },
+    {
+      "id": "c-009",
+      "question": "Professor Tinkles has 16 tea bags. If he uses 4 tea bags per day, how many days will they last?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "16 ÷ 4 = 4. Professor Tinkles' tea bags will last 4 days!",
+      "concept": "Basic Division"
+    },
+    {
+      "id": "c-010",
+      "question": "Sir Whiskersworth is counting by 3s: 3, 6, 9, 12, ?. What comes next?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "Counting by 3s: 3, 6, 9, 12, 15. The next number is 15!",
+      "concept": "Skip Counting"
+    },
+    {
+      "id": "c-011",
+      "question": "Lady Pawsington has 4 pencils. She buys 6 more. How many pencils does she have now?",
+      "answer": 10,
+      "options": [8, 9, 10, 11],
+      "explanation": "4 + 6 = 10. Lady Pawsington now has 10 pencils!",
+      "concept": "Basic Addition"
+    },
+    {
+      "id": "c-012",
+      "question": "Inspector Clawson has 11 pieces of evidence. He solves 4 cases. How many pieces of evidence are left?",
+      "answer": 7,
+      "options": [6, 7, 8, 9],
+      "explanation": "11 - 4 = 7. Inspector Clawson has 7 pieces of evidence remaining!",
+      "concept": "Basic Subtraction"
+    },
+    {
+      "id": "c-013",
+      "question": "Professor Tinkles has 2 tea sets with 6 cups each. How many cups does he have in total?",
+      "answer": 12,
+      "options": [10, 11, 12, 13],
+      "explanation": "2 tea sets × 6 cups = 12 cups. Professor Tinkles has 12 cups in total!",
+      "concept": "Basic Multiplication"
+    },
+    {
+      "id": "c-014",
+      "question": "Sir Whiskersworth has 18 seeds. If he plants 6 seeds per row, how many rows can he make?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "18 ÷ 6 = 3. Sir Whiskersworth can make 3 rows of seeds!",
+      "concept": "Basic Division"
+    },
+    {
+      "id": "c-015",
+      "question": "Lady Pawsington is counting by 5s: 5, 10, 15, 20, ?. What comes next?",
+      "answer": 25,
+      "options": [22, 23, 24, 25],
+      "explanation": "Counting by 5s: 5, 10, 15, 20, 25. The next number is 25!",
+      "concept": "Skip Counting"
+    },
+    {
+      "id": "c-016",
+      "question": "Professor Tinkles has 6 teacups and buys 3 more. How many teacups does he have now?",
+      "answer": 9,
+      "options": [7, 8, 9, 10],
+      "explanation": "6 + 3 = 9. Professor Tinkles now has 9 teacups for his tea ceremony!",
+      "concept": "Basic Addition"
+    },
+    {
+      "id": "c-017",
+      "question": "Sir Whiskersworth has 12 garden tools and gives away 4. How many tools does he have left?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "12 - 4 = 8. Sir Whiskersworth has 8 tools remaining in his garden shed!",
+      "concept": "Basic Subtraction"
+    },
+    {
+      "id": "c-018",
+      "question": "Lady Pawsington has 3 shelves with 6 books each. How many books does she have in total?",
+      "answer": 18,
+      "options": [15, 16, 18, 20],
+      "explanation": "3 shelves × 6 books = 18 books. Lady Pawsington's library is well-stocked!",
+      "concept": "Basic Multiplication"
+    },
+    {
+      "id": "c-019",
+      "question": "Inspector Clawson has 20 clues and wants to organize them into 4 equal groups. How many clues per group?",
+      "answer": 5,
+      "options": [4, 5, 6, 8],
+      "explanation": "20 ÷ 4 = 5. Inspector Clawson has 5 clues in each organized group!",
+      "concept": "Basic Division"
+    },
+    {
+      "id": "c-020",
+      "question": "Professor Tinkles is counting by 3s: 3, 6, 9, 12, ?. What comes next?",
+      "answer": 15,
+      "options": [13, 14, 15, 16],
+      "explanation": "Counting by 3s: 3, 6, 9, 12, 15. The next number is 15!",
+      "concept": "Skip Counting"
+    },
+    {
+      "id": "c-021",
+      "question": "Sir Whiskersworth has 7 flower pots and buys 5 more. How many flower pots does he have now?",
+      "answer": 12,
+      "options": [10, 11, 12, 13],
+      "explanation": "7 + 5 = 12. Sir Whiskersworth now has 12 flower pots in his garden!",
+      "concept": "Basic Addition"
+    },
+    {
+      "id": "c-022",
+      "question": "Lady Pawsington has 15 algebra books and gives away 7. How many books does she have left?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "15 - 7 = 8. Lady Pawsington has 8 algebra books remaining!",
+      "concept": "Basic Subtraction"
+    },
+    {
+      "id": "c-023",
+      "question": "Inspector Clawson has 4 cases and each case has 8 clues. How many clues does he have in total?",
+      "answer": 32,
+      "options": [28, 30, 32, 36],
+      "explanation": "4 cases × 8 clues = 32 clues. Inspector Clawson has quite a collection of evidence!",
+      "concept": "Basic Multiplication"
+    },
+    {
+      "id": "c-024",
+      "question": "Professor Tinkles has 24 tea bags and wants to use 6 per day. How many days will they last?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "24 ÷ 6 = 4. Professor Tinkles' tea bags will last 4 days!",
+      "concept": "Basic Division"
+    },
+    {
+      "id": "c-025",
+      "question": "Sir Whiskersworth is counting by 4s: 4, 8, 12, 16, ?. What comes next?",
+      "answer": 20,
+      "options": [18, 19, 20, 22],
+      "explanation": "Counting by 4s: 4, 8, 12, 16, 20. The next number is 20!",
+      "concept": "Skip Counting"
+    }
+  ]
+}

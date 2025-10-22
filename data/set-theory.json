@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Set Theory",
+    "instructor": "Lady Pawsington",
+    "emoji": "🔗",
+    "difficulty": "intermediate",
+    "concepts": ["Union", "Intersection", "Complement", "Subsets", "Venn Diagrams"]
+  },
+  "questions": [
+    {
+      "id": "st-001",
+      "question": "Lady Pawsington has a set A = {1, 2, 3} and set B = {3, 4, 5}. What is A ∪ B (A union B)?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "A ∪ B = {1, 2, 3, 4, 5}. The union contains all elements from both sets, with no duplicates!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-002",
+      "question": "If set A = {2, 4, 6, 8} and set B = {4, 6, 8, 10}, what is A ∩ B (A intersection B)?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "A ∩ B = {4, 6, 8}. The intersection contains only elements that are in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-003",
+      "question": "Professor Tinkles has a universal set U = {1, 2, 3, 4, 5} and set A = {1, 3, 5}. What is A' (complement of A)?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "A' = {2, 4}. The complement contains all elements in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-004",
+      "question": "If A = {1, 2} and B = {1, 2, 3, 4}, is A a subset of B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "Yes! A ⊆ B because every element in A (1 and 2) is also in B!",
+      "concept": "Subsets"
+    },
+    {
+      "id": "st-005",
+      "question": "Sir Whiskersworth has sets A = {cat, dog} and B = {dog, bird}. What is A ∩ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "A ∩ B = {dog}. Only 'dog' appears in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-006",
+      "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A ∪ B?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "A ∪ B = {1, 2, 3, 4, 5, 6}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-007",
+      "question": "Lady Pawsington has a universal set U = {red, blue, green, yellow} and set A = {red, blue}. What is A'?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "A' = {green, yellow}. The complement contains all colors in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-008",
+      "question": "If A = {2, 4} and B = {1, 2, 3, 4, 5}, is A ⊆ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "Yes! A ⊆ B because both 2 and 4 from A are also in B!",
+      "concept": "Subsets"
+    },
+    {
+      "id": "st-009",
+      "question": "Professor Tinkles has sets A = {tea, coffee} and B = {coffee, milk}. What is A ∩ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "A ∩ B = {coffee}. Only 'coffee' appears in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-010",
+      "question": "If A = {a, b, c} and B = {b, c, d}, what is A ∪ B?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "A ∪ B = {a, b, c, d}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-011",
+      "question": "Sir Whiskersworth has a universal set U = {1, 2, 3, 4, 5, 6} and set A = {2, 4, 6}. What is A'?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "A' = {1, 3, 5}. The complement contains all numbers in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-012",
+      "question": "If A = {1, 3} and B = {1, 2, 3, 4}, is A ⊆ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "Yes! A ⊆ B because both 1 and 3 from A are also in B!",
+      "concept": "Subsets"
+    },
+    {
+      "id": "st-013",
+      "question": "Lady Pawsington has sets A = {math, science} and B = {science, history}. What is A ∩ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "A ∩ B = {science}. Only 'science' appears in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-014",
+      "question": "If A = {x, y} and B = {y, z}, what is A ∪ B?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "A ∪ B = {x, y, z}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-015",
+      "question": "Professor Tinkles has a universal set U = {A, B, C, D, E} and set A = {A, C, E}. What is A'?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "A' = {B, D}. The complement contains all letters in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-016",
+      "question": "Lady Pawsington has sets A = {1, 3, 5, 7} and B = {2, 4, 6, 8}. What is A ∪ B?",
+      "answer": 8,
+      "options": [4, 6, 8, 10],
+      "explanation": "A ∪ B = {1, 2, 3, 4, 5, 6, 7, 8}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-017",
+      "question": "Sir Whiskersworth has sets A = {red, blue} and B = {blue, green}. What is A ∩ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "A ∩ B = {blue}. Only 'blue' appears in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-018",
+      "question": "Inspector Clawson has a universal set U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} and set A = {1, 3, 5, 7, 9}. What is A'?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "A' = {2, 4, 6, 8, 10}. The complement contains all numbers in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-019",
+      "question": "Professor Tinkles has sets A = {2, 4} and B = {1, 2, 3, 4, 5, 6}. Is A ⊆ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "Yes! A ⊆ B because both 2 and 4 from A are also in B!",
+      "concept": "Subsets"
+    },
+    {
+      "id": "st-020",
+      "question": "Lady Pawsington has sets A = {cat, dog, bird} and B = {dog, fish, cat}. What is A ∩ B?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "A ∩ B = {cat, dog}. Both 'cat' and 'dog' appear in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-021",
+      "question": "Sir Whiskersworth has sets A = {a, b, c, d} and B = {c, d, e, f}. What is A ∪ B?",
+      "answer": 6,
+      "options": [4, 5, 6, 8],
+      "explanation": "A ∪ B = {a, b, c, d, e, f}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    },
+    {
+      "id": "st-022",
+      "question": "Inspector Clawson has a universal set U = {red, orange, yellow, green, blue, purple} and set A = {red, yellow, blue}. What is A'?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "A' = {orange, green, purple}. The complement contains all colors in U that are not in A!",
+      "concept": "Complement"
+    },
+    {
+      "id": "st-023",
+      "question": "Professor Tinkles has sets A = {1, 2, 3} and B = {1, 2, 3, 4, 5}. Is A ⊆ B?",
+      "answer": 1,
+      "options": [0, 1, 2, 3],
+      "explanation": "Yes! A ⊆ B because all elements in A (1, 2, 3) are also in B!",
+      "concept": "Subsets"
+    },
+    {
+      "id": "st-024",
+      "question": "Lady Pawsington has sets A = {math, science, history} and B = {science, art, math}. What is A ∩ B?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "A ∩ B = {math, science}. Both 'math' and 'science' appear in both sets!",
+      "concept": "Intersection"
+    },
+    {
+      "id": "st-025",
+      "question": "Sir Whiskersworth has sets A = {x, y, z} and B = {y, z, w}. What is A ∪ B?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "A ∪ B = {x, y, z, w}. The union contains all unique elements from both sets!",
+      "concept": "Union"
+    }
+  ]
+}
