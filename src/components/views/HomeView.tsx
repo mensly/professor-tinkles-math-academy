@@ -51,7 +51,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
     title: string;
     description: string;
     view: ViewType;
-    difficulty: DifficultyLevel;
+    difficulty: DifficultyLevel | null;
     delay: number;
   }> = [
     {
@@ -123,7 +123,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Tea Time Break',
       description: 'Take a delightful British break',
       view: 'tea-time',
-      difficulty: 'beginner',
+      difficulty: null,
       delay: 1.0
     },
     {
@@ -131,7 +131,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Achievements',
       description: 'View your mathematical progress',
       view: 'achievements',
-      difficulty: 'beginner',
+      difficulty: null,
       delay: 1.1
     }
   ];
@@ -151,15 +151,17 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
           >
             <div className="feature-card-header">
               <Icon size={32} />
-              <div 
-                className="difficulty-badge"
-                style={{ backgroundColor: getDifficultyColor(difficulty) }}
-              >
-                <span className="difficulty-text">{difficulty.toUpperCase()}</span>
-                <div className="difficulty-stars">
-                  {getDifficultyStars(difficulty)}
+              {difficulty && (
+                <div 
+                  className="difficulty-badge"
+                  style={{ backgroundColor: getDifficultyColor(difficulty) }}
+                >
+                  <span className="difficulty-text">{difficulty.toUpperCase()}</span>
+                  <div className="difficulty-stars">
+                    {getDifficultyStars(difficulty)}
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
             <h3>{title}</h3>
             <p>{description}</p>
