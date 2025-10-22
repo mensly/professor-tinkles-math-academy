@@ -1,28 +1,13 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle, XCircle, RotateCcw, Trophy, Calculator, TrendingUp, Zap } from 'lucide-react';
+import React from 'react';
+import { Calculator, TrendingUp, Zap } from 'lucide-react';
+import BaseLesson, { LessonData, Problem } from './BaseLesson';
 
 interface CalculusLessonProps {
   onComplete?: (score: number) => void;
   onTeaTime?: () => void;
 }
 
-interface Problem {
-  question: string;
-  answer: number;
-  options: number[];
-  explanation: string;
-  concept: string;
-}
-
 const CalculusLesson: React.FC<CalculusLessonProps> = ({ onComplete, onTeaTime }) => {
-  const [currentProblem, setCurrentProblem] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-  const [score, setScore] = useState(0);
-  const [showResult, setShowResult] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(false);
-  const [completed, setCompleted] = useState(false);
-
   const problems: Problem[] = [
     {
       question: "Professor Tinkles is tracking how fast his cat's tail moves. If the position is f(x) = x², what is the derivative at x = 2?",
@@ -72,166 +57,25 @@ const CalculusLesson: React.FC<CalculusLessonProps> = ({ onComplete, onTeaTime }
     }
   };
 
-  const handleAnswerSelect = (answer: number) => {
-    if (showResult) return;
-    
-    setSelectedAnswer(answer);
-    const correct = answer === problems[currentProblem].answer;
-    setIsCorrect(correct);
-    setShowResult(true);
-    
-    if (correct) {
-      setScore(score + 1);
-    }
+  const lessonData: LessonData = {
+    title: "Calculus",
+    instructor: "Professor Tinkles",
+    emoji: "📊",
+    className: "calculus-lesson",
+    problems,
+    getScoreMessage: (score: number, total: number) => {
+      const percentage = (score / total) * 100;
+      if (percentage === 100) return "Magnificent! You've mastered the fundamentals of calculus! 🧮";
+      if (percentage >= 80) return "Brilliant! Your calculus intuition is purr-fect! ⭐";
+      if (percentage >= 60) return "Excellent work! You're well on your way to calculus mastery! 📈";
+      return "Keep practicing! Calculus is like a good cup of tea - it takes time to steep! ☕";
+    },
+    getConceptIcon,
+    getCorrectMessage: () => "Calculus-tastic!",
+    getIncorrectMessage: () => "Not quite the right derivative."
   };
 
-  const handleNext = () => {
-    if (currentProblem < problems.length - 1) {
-      setCurrentProblem(currentProblem + 1);
-      setSelectedAnswer(null);
-      setShowResult(false);
-    } else {
-      setCompleted(true);
-      if (onComplete) {
-        onComplete(score);
-      }
-    }
-  };
-
-  const handleRestart = () => {
-    setCurrentProblem(0);
-    setSelectedAnswer(null);
-    setScore(0);
-    setShowResult(false);
-    setCompleted(false);
-  };
-
-  const getScoreMessage = () => {
-    const percentage = (score / problems.length) * 100;
-    if (percentage === 100) return "Magnificent! You've mastered the fundamentals of calculus! 🧮";
-    if (percentage >= 80) return "Brilliant! Your calculus intuition is purr-fect! ⭐";
-    if (percentage >= 60) return "Excellent work! You're well on your way to calculus mastery! 📈";
-    return "Keep practicing! Calculus is like a good cup of tea - it takes time to steep! ☕";
-  };
-
-  if (completed) {
-    return (
-      <motion.div
-        className="lesson-complete"
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <div className="completion-card">
-          <Trophy size={64} className="trophy-icon" />
-          <h2>Calculus Lesson Complete!</h2>
-          <p className="score-message">{getScoreMessage()}</p>
-          <div className="score-display">
-            <span className="score">{score}</span>
-            <span className="total">/ {problems.length}</span>
-          </div>
-          <div className="completion-actions">
-            <button onClick={handleRestart} className="btn-secondary">
-              <RotateCcw size={20} />
-              Try Again
-            </button>
-            <button onClick={onTeaTime} className="btn-primary">
-              ☕ Tea Time!
-            </button>
-          </div>
-        </div>
-      </motion.div>
-    );
-  }
-
-  return (
-    <motion.div
-      className="calculus-lesson"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className="lesson-header">
-        <h2>📊 Calculus with Professor Tinkles</h2>
-        <div className="progress-bar">
-          <div 
-            className="progress-fill" 
-            style={{ width: `${((currentProblem + 1) / problems.length) * 100}%` }}
-          />
-        </div>
-        <p className="progress-text">Question {currentProblem + 1} of {problems.length}</p>
-      </div>
-
-      <div className="problem-container">
-        <motion.div
-          key={currentProblem}
-          className="problem-card"
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div className="concept-display">
-            {getConceptIcon(problems[currentProblem].concept)}
-            <span className="concept-label">{problems[currentProblem].concept}</span>
-          </div>
-          
-          <h3 className="problem-question">{problems[currentProblem].question}</h3>
-          
-          <div className="answer-options">
-            {problems[currentProblem].options.map((option, index) => (
-              <motion.button
-                key={index}
-                className={`answer-option ${
-                  selectedAnswer === option ? 'selected' : ''
-                } ${
-                  showResult 
-                    ? option === problems[currentProblem].answer 
-                      ? 'correct' 
-                      : selectedAnswer === option 
-                        ? 'incorrect' 
-                        : ''
-                    : ''
-                }`}
-                onClick={() => handleAnswerSelect(option)}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                disabled={showResult}
-              >
-                {option}
-              </motion.button>
-            ))}
-          </div>
-
-          <AnimatePresence>
-            {showResult && (
-              <motion.div
-                className="result-feedback"
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.3 }}
-              >
-                <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
-                  {isCorrect ? (
-                    <CheckCircle size={24} className="feedback-icon" />
-                  ) : (
-                    <XCircle size={24} className="feedback-icon" />
-                  )}
-                  <span className="feedback-text">
-                    {isCorrect ? "Calculus-tastic!" : "Not quite the right derivative."}
-                  </span>
-                </div>
-                <p className="explanation">{problems[currentProblem].explanation}</p>
-                <button onClick={handleNext} className="btn-primary">
-                  {currentProblem < problems.length - 1 ? 'Next Question' : 'Complete Lesson'}
-                </button>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </motion.div>
-      </div>
-    </motion.div>
-  );
+  return <BaseLesson lesson={lessonData} onComplete={onComplete} onTeaTime={onTeaTime} />;
 };
 
 export default CalculusLesson;
