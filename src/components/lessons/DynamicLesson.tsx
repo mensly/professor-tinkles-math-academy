@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, XCircle, RotateCcw, Trophy } from 'lucide-react';
 import { loadLessonQuestions, LoadedLesson } from '../../utils/questionLoader';
-import { DynamicLessonProps, DifficultyLevel } from '../../types/lesson';
+import { DynamicLessonProps } from '../../types/lesson';
 import { getDifficultyStars, getDifficultyColor } from '../../utils/difficultyUtils';
 
 const DynamicLesson: React.FC<DynamicLessonProps> = ({ lesson, onComplete, onTeaTime }) => {
