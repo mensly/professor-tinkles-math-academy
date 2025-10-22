@@ -1,6 +1,7 @@
 import React from 'react';
 import ArithmeticLesson from '../lessons/ArithmeticLesson';
 import CountingLesson from '../lessons/CountingLesson';
+import NumberRecognitionLesson from '../lessons/NumberRecognitionLesson';
 import GeometryLesson from '../lessons/GeometryLesson';
 import CalculusLesson from '../lessons/CalculusLesson';
 import SetTheoryLesson from '../lessons/SetTheoryLesson';
@@ -31,6 +32,13 @@ const LessonRouter: React.FC<LessonRouterProps> = ({
   perfectScores
 }) => {
   switch (currentView) {
+    case 'number-recognition':
+      return (
+        <NumberRecognitionLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
     case 'counting':
       return (
         <CountingLesson 

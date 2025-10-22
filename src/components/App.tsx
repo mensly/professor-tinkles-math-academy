@@ -9,7 +9,7 @@ const App: React.FC = () => {
   const [activeCharacter] = useState<string | null>(null);
   const [currentMessage, setCurrentMessage] = useState<string>('');
   const [showMessage, setShowMessage] = useState(false);
-  const [currentView, setCurrentView] = useState<'home' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'number-recognition' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements'>('home');
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
   const [perfectScores, setPerfectScores] = useState(0);
   const [totalScore, setTotalScore] = useState(0);

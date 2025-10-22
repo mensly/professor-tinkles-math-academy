@@ -6,7 +6,7 @@ import LadyPawsington from '../characters/LadyPawsington';
 import InspectorClawson from '../characters/InspectorClawson';
 import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star, Hash as CountIcon } from 'lucide-react';
 
-type ViewType = 'home' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
+type ViewType = 'home' | 'number-recognition' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
 type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
 
 interface HomeViewProps {
@@ -54,6 +54,14 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
     difficulty: DifficultyLevel | null;
     delay: number;
   }> = [
+    {
+      icon: Hash,
+      title: 'Number Recognition',
+      description: 'Learn to identify and recognize numbers with Professor Tinkles',
+      view: 'number-recognition',
+      difficulty: 'beginner',
+      delay: 0.05
+    },
     {
       icon: CountIcon,
       title: 'Counting Lessons',
