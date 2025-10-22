@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Algebra Basics",
+    "instructor": "Sir Whiskersworth",
+    "emoji": "📐",
+    "difficulty": "intermediate",
+    "concepts": ["Variables", "Equations", "Linear Functions", "Graphing", "Problem Solving"]
+  },
+  "questions": [
+    {
+      "id": "ab-001",
+      "question": "Sir Whiskersworth has x + 5 = 12. What is the value of x?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "x + 5 = 12, so x = 12 - 5 = 7. Sir Whiskersworth's algebraic deduction!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-002",
+      "question": "Professor Tinkles has 3y = 15. What is y?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "3y = 15, so y = 15 ÷ 3 = 5. Professor Tinkles' variable solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-003",
+      "question": "Lady Pawsington's equation is 2x - 4 = 8. What is x?",
+      "answer": 6,
+      "options": [4, 5, 6, 7],
+      "explanation": "2x - 4 = 8, so 2x = 12, therefore x = 6. Lady Pawsington's step-by-step solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-004",
+      "question": "If f(x) = 2x + 3, what is f(4)?",
+      "answer": 11,
+      "options": [8, 9, 10, 11],
+      "explanation": "f(4) = 2(4) + 3 = 8 + 3 = 11. Function evaluation made simple!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-005",
+      "question": "Inspector Clawson needs to solve x/3 = 4. What is x?",
+      "answer": 12,
+      "options": [9, 10, 11, 12],
+      "explanation": "x/3 = 4, so x = 4 × 3 = 12. The Inspector's division equation!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-006",
+      "question": "What is the slope of the line y = 3x + 2?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "In y = mx + b form, the slope m is 3. Slope-intercept form mastery!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-007",
+      "question": "Sir Whiskersworth has 4x + 2 = 3x + 7. What is x?",
+      "answer": 5,
+      "options": [3, 4, 5, 6],
+      "explanation": "4x + 2 = 3x + 7, so 4x - 3x = 7 - 2, therefore x = 5. Variable isolation!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-008",
+      "question": "Professor Tinkles plots the point (2, 5). What is the y-coordinate?",
+      "answer": 5,
+      "options": [2, 3, 4, 5],
+      "explanation": "In (x, y) coordinates, the y-coordinate is 5. Professor Tinkles' coordinate mastery!",
+      "concept": "Graphing"
+    },
+    {
+      "id": "ab-009",
+      "question": "Lady Pawsington has 5x - 3 = 2x + 9. What is x?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "5x - 3 = 2x + 9, so 3x = 12, therefore x = 4. Lady Pawsington's equation balancing!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-010",
+      "question": "If g(x) = x + 4, what is g(7)?",
+      "answer": 11,
+      "options": [9, 10, 11, 12],
+      "explanation": "g(7) = 7 + 4 = 11. Simple function substitution!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-011",
+      "question": "Inspector Clawson needs to find the y-intercept of y = 2x - 6.",
+      "answer": -6,
+      "options": [-8, -6, -4, -2],
+      "explanation": "In y = mx + b form, the y-intercept b is -6. The Inspector's intercept finding!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-012",
+      "question": "Sir Whiskersworth solves 2(x + 3) = 14. What is x?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "2(x + 3) = 14, so x + 3 = 7, therefore x = 4. Distributive property in action!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-013",
+      "question": "Professor Tinkles has the equation 3x + 1 = x + 9. What is x?",
+      "answer": 4,
+      "options": [3, 4, 5, 6],
+      "explanation": "3x + 1 = x + 9, so 2x = 8, therefore x = 4. Professor Tinkles' equation solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-014",
+      "question": "What is the x-intercept of y = 3x - 9?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "Set y = 0: 0 = 3x - 9, so 3x = 9, therefore x = 3. X-intercept calculation!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-015",
+      "question": "Lady Pawsington has 4x - 8 = 0. What is x?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "4x - 8 = 0, so 4x = 8, therefore x = 2. Lady Pawsington's simple equation!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-016",
+      "question": "If h(x) = 2x - 1, what is h(3)?",
+      "answer": 5,
+      "options": [4, 5, 6, 7],
+      "explanation": "h(3) = 2(3) - 1 = 6 - 1 = 5. Function evaluation practice!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-017",
+      "question": "Inspector Clawson needs to solve x + 7 = 2x - 1. What is x?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "x + 7 = 2x - 1, so 7 + 1 = 2x - x, therefore x = 8. The Inspector's equation solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-018",
+      "question": "What is the slope of the line passing through (1, 3) and (3, 7)?",
+      "answer": 2,
+      "options": [1, 2, 3, 4],
+      "explanation": "Slope = (7-3)/(3-1) = 4/2 = 2. Slope calculation from two points!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-019",
+      "question": "Sir Whiskersworth has 3(x - 2) = 15. What is x?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "3(x - 2) = 15, so x - 2 = 5, therefore x = 7. Sir Whiskersworth's distributive solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-020",
+      "question": "Professor Tinkles plots (0, 4) and (2, 0). What is the slope?",
+      "answer": -2,
+      "options": [-3, -2, -1, 0],
+      "explanation": "Slope = (0-4)/(2-0) = -4/2 = -2. Professor Tinkles' negative slope!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-021",
+      "question": "Lady Pawsington has 2x + 5 = 3x - 2. What is x?",
+      "answer": 7,
+      "options": [5, 6, 7, 8],
+      "explanation": "2x + 5 = 3x - 2, so 5 + 2 = 3x - 2x, therefore x = 7. Lady Pawsington's equation balancing!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-022",
+      "question": "If f(x) = x + 6, what is f(-2)?",
+      "answer": 4,
+      "options": [2, 3, 4, 5],
+      "explanation": "f(-2) = -2 + 6 = 4. Function evaluation with negative numbers!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-023",
+      "question": "Inspector Clawson needs to solve 5x = 2x + 9. What is x?",
+      "answer": 3,
+      "options": [2, 3, 4, 5],
+      "explanation": "5x = 2x + 9, so 3x = 9, therefore x = 3. The Inspector's variable solving!",
+      "concept": "Equations"
+    },
+    {
+      "id": "ab-024",
+      "question": "What is the y-intercept of y = -2x + 8?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "In y = mx + b form, the y-intercept b is 8. Y-intercept identification!",
+      "concept": "Linear Functions"
+    },
+    {
+      "id": "ab-025",
+      "question": "Sir Whiskersworth has x/2 + 3 = 7. What is x?",
+      "answer": 8,
+      "options": [6, 7, 8, 9],
+      "explanation": "x/2 + 3 = 7, so x/2 = 4, therefore x = 8. Sir Whiskersworth's fraction equation!",
+      "concept": "Equations"
+    }
+  ]
+}

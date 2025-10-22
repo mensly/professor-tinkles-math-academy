@@ -4,9 +4,9 @@ import ProfessorTinkles from '../characters/ProfessorTinkles';
 import SirWhiskersworth from '../characters/SirWhiskersworth';
 import LadyPawsington from '../characters/LadyPawsington';
 import InspectorClawson from '../characters/InspectorClawson';
-import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star, Hash as CountIcon } from 'lucide-react';
+import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star, Hash as CountIcon, PieChart, Square, Dice1, Beaker, Leaf } from 'lucide-react';
 
-type ViewType = 'home' | 'number-recognition' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
+type ViewType = 'home' | 'number-recognition' | 'counting' | 'arithmetic' | 'fractions-decimals' | 'algebra-basics' | 'probability' | 'geometry' | 'trigonometry' | 'statistics' | 'applied-math' | 'calculus' | 'set-theory' | 'number-theory' | 'discrete-math' | 'math-nature' | 'tea-time' | 'achievements';
 type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
 
 interface HomeViewProps {
@@ -79,12 +79,36 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       delay: 0.2
     },
     {
+      icon: PieChart,
+      title: 'Fractions & Decimals',
+      description: 'Master fractions and decimals with Professor Tinkles',
+      view: 'fractions-decimals',
+      difficulty: 'beginner',
+      delay: 0.25
+    },
+    {
+      icon: Square,
+      title: 'Algebra Basics',
+      description: 'Learn algebra with Sir Whiskersworth',
+      view: 'algebra-basics',
+      difficulty: 'intermediate',
+      delay: 0.3
+    },
+    {
+      icon: Dice1,
+      title: 'Probability',
+      description: 'Explore chance and probability with Lady Pawsington',
+      view: 'probability',
+      difficulty: 'intermediate',
+      delay: 0.35
+    },
+    {
       icon: Triangle,
       title: 'Geometry Lessons',
       description: 'Explore shapes with Sir Whiskersworth',
       view: 'geometry',
       difficulty: 'intermediate',
-      delay: 0.3
+      delay: 0.4
     },
     {
       icon: Zap,
@@ -92,7 +116,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       description: 'Master derivatives and integrals with Professor Tinkles',
       view: 'calculus',
       difficulty: 'advanced',
-      delay: 0.4
+      delay: 0.5
     },
     {
       icon: Layers,
@@ -100,7 +124,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       description: 'Explore unions, intersections, and complements with Lady Pawsington',
       view: 'set-theory',
       difficulty: 'intermediate',
-      delay: 0.5
+      delay: 0.6
     },
     {
       icon: BarChart3,
@@ -108,7 +132,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       description: 'Master data analysis and chance with Lady Pawsington',
       view: 'statistics',
       difficulty: 'intermediate',
-      delay: 0.6
+      delay: 0.7
     },
     {
       icon: Hash,
@@ -116,7 +140,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       description: 'Explore primes, factors, and sequences with Professor Tinkles',
       view: 'number-theory',
       difficulty: 'advanced',
-      delay: 0.7
+      delay: 0.8
     },
     {
       icon: Network,
@@ -124,7 +148,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       description: 'Solve combinatorial problems with Inspector Clawson',
       view: 'discrete-math',
       difficulty: 'advanced',
-      delay: 0.8
+      delay: 0.85
     },
     {
       icon: Circle,
@@ -135,12 +159,28 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       delay: 0.9
     },
     {
+      icon: Beaker,
+      title: 'Applied Mathematics',
+      description: 'Solve real-world problems with Inspector Clawson',
+      view: 'applied-math',
+      difficulty: 'advanced',
+      delay: 0.95
+    },
+    {
+      icon: Leaf,
+      title: 'Math in Nature',
+      description: 'Discover mathematical patterns in nature with Professor Tinkles',
+      view: 'math-nature',
+      difficulty: 'expert',
+      delay: 1.0
+    },
+    {
       icon: Coffee,
       title: 'Tea Time Break',
       description: 'Take a delightful British break',
       view: 'tea-time',
       difficulty: null,
-      delay: 1.0
+      delay: 1.05
     },
     {
       icon: Trophy,

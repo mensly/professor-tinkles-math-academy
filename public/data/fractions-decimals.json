@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Fractions & Decimals",
+    "instructor": "Professor Tinkles",
+    "emoji": "🍰",
+    "difficulty": "beginner",
+    "concepts": ["Fractions", "Decimals", "Converting", "Comparing", "Operations"]
+  },
+  "questions": [
+    {
+      "id": "fd-001",
+      "question": "Professor Tinkles has 3 slices of pie out of 8 total slices. What fraction represents his portion?",
+      "answer": 0.375,
+      "options": [0.25, 0.375, 0.5, 0.625],
+      "explanation": "3/8 = 0.375. Professor Tinkles has a modest but delicious portion!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-002",
+      "question": "Sir Whiskersworth measures 0.75 meters. What fraction is this?",
+      "answer": 0.75,
+      "options": [0.5, 0.75, 0.8, 0.9],
+      "explanation": "0.75 = 3/4. Sir Whiskersworth's precise measurement!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-003",
+      "question": "Lady Pawsington has 1/2 cup of milk. How much is this in decimal form?",
+      "answer": 0.5,
+      "options": [0.25, 0.5, 0.75, 1.0],
+      "explanation": "1/2 = 0.5. Lady Pawsington's perfect half-cup measurement!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-004",
+      "question": "Which is larger: 2/3 or 0.6?",
+      "answer": 0.67,
+      "options": [0.6, 0.67, 0.7, 0.8],
+      "explanation": "2/3 ≈ 0.667, which is larger than 0.6. Fractions can be tricky to compare!",
+      "concept": "Comparing"
+    },
+    {
+      "id": "fd-005",
+      "question": "Inspector Clawson found 0.4 of a clue. What fraction represents this?",
+      "answer": 0.4,
+      "options": [0.25, 0.4, 0.5, 0.6],
+      "explanation": "0.4 = 2/5. The Inspector is making good progress on this case!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-006",
+      "question": "Professor Tinkles adds 1/4 + 1/4. What is the result?",
+      "answer": 0.5,
+      "options": [0.25, 0.5, 0.75, 1.0],
+      "explanation": "1/4 + 1/4 = 2/4 = 1/2 = 0.5. Simple addition with fractions!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-007",
+      "question": "Sir Whiskersworth has 0.8 of his homework done. What fraction remains?",
+      "answer": 0.2,
+      "options": [0.1, 0.2, 0.3, 0.4],
+      "explanation": "1 - 0.8 = 0.2 = 1/5. Just a little more work to go!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-008",
+      "question": "Lady Pawsington cuts a cake into 6 equal pieces and takes 2. What fraction did she take?",
+      "answer": 0.33,
+      "options": [0.25, 0.33, 0.5, 0.67],
+      "explanation": "2/6 = 1/3 ≈ 0.333. Lady Pawsington's fair share!",
+      "concept": "Fractions"
+    },
+    {
+      "id": "fd-009",
+      "question": "Which decimal is equivalent to 3/5?",
+      "answer": 0.6,
+      "options": [0.5, 0.6, 0.7, 0.8],
+      "explanation": "3/5 = 0.6. A straightforward conversion!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-010",
+      "question": "Inspector Clawson multiplies 0.5 × 0.4. What is the result?",
+      "answer": 0.2,
+      "options": [0.1, 0.2, 0.3, 0.4],
+      "explanation": "0.5 × 0.4 = 0.2. The Inspector's mathematical deduction!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-011",
+      "question": "Professor Tinkles has 7/10 of his tea left. What decimal is this?",
+      "answer": 0.7,
+      "options": [0.6, 0.7, 0.8, 0.9],
+      "explanation": "7/10 = 0.7. Professor Tinkles still has plenty of tea!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-012",
+      "question": "Sir Whiskersworth compares 0.3 and 1/3. Which is larger?",
+      "answer": 0.33,
+      "options": [0.3, 0.33, 0.4, 0.5],
+      "explanation": "1/3 ≈ 0.333, which is slightly larger than 0.3. Close comparison!",
+      "concept": "Comparing"
+    },
+    {
+      "id": "fd-013",
+      "question": "Lady Pawsington divides 3/4 by 2. What is the result?",
+      "answer": 0.375,
+      "options": [0.25, 0.375, 0.5, 0.75],
+      "explanation": "(3/4) ÷ 2 = 3/8 = 0.375. Lady Pawsington's careful division!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-014",
+      "question": "What is 0.25 as a fraction in simplest form?",
+      "answer": 0.25,
+      "options": [0.2, 0.25, 0.3, 0.4],
+      "explanation": "0.25 = 1/4. A quarter is always a quarter!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-015",
+      "question": "Inspector Clawson finds 5/8 of the evidence. What decimal is this?",
+      "answer": 0.625,
+      "options": [0.5, 0.625, 0.75, 0.8],
+      "explanation": "5/8 = 0.625. The Inspector is making excellent progress!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-016",
+      "question": "Professor Tinkles subtracts 0.3 from 0.8. What is the result?",
+      "answer": 0.5,
+      "options": [0.3, 0.5, 0.6, 0.7],
+      "explanation": "0.8 - 0.3 = 0.5. Professor Tinkles' precise calculation!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-017",
+      "question": "Which fraction is equivalent to 0.6?",
+      "answer": 0.6,
+      "options": [0.5, 0.6, 0.7, 0.8],
+      "explanation": "0.6 = 3/5. A common decimal to fraction conversion!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-018",
+      "question": "Sir Whiskersworth has 2/3 of his garden planted. What decimal is this?",
+      "answer": 0.67,
+      "options": [0.6, 0.67, 0.7, 0.8],
+      "explanation": "2/3 ≈ 0.667. Sir Whiskersworth's garden is mostly complete!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-019",
+      "question": "Lady Pawsington adds 0.2 + 0.3. What is the sum?",
+      "answer": 0.5,
+      "options": [0.4, 0.5, 0.6, 0.7],
+      "explanation": "0.2 + 0.3 = 0.5. Lady Pawsington's simple addition!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-020",
+      "question": "Inspector Clawson compares 4/5 and 0.8. Are they equal?",
+      "answer": 0.8,
+      "options": [0.75, 0.8, 0.85, 0.9],
+      "explanation": "4/5 = 0.8. They are exactly equal! The Inspector's keen observation!",
+      "concept": "Comparing"
+    },
+    {
+      "id": "fd-021",
+      "question": "Professor Tinkles multiplies 1/2 × 0.6. What is the result?",
+      "answer": 0.3,
+      "options": [0.2, 0.3, 0.4, 0.5],
+      "explanation": "1/2 × 0.6 = 0.5 × 0.6 = 0.3. Professor Tinkles' mixed calculation!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-022",
+      "question": "What is 0.125 as a fraction?",
+      "answer": 0.125,
+      "options": [0.1, 0.125, 0.15, 0.2],
+      "explanation": "0.125 = 1/8. A common decimal in measurements!",
+      "concept": "Converting"
+    },
+    {
+      "id": "fd-023",
+      "question": "Sir Whiskersworth has 0.9 of his assignment done. What fraction remains?",
+      "answer": 0.1,
+      "options": [0.05, 0.1, 0.15, 0.2],
+      "explanation": "1 - 0.9 = 0.1 = 1/10. Just a tiny bit more to go!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-024",
+      "question": "Lady Pawsington divides 0.8 by 4. What is the result?",
+      "answer": 0.2,
+      "options": [0.15, 0.2, 0.25, 0.3],
+      "explanation": "0.8 ÷ 4 = 0.2. Lady Pawsington's careful division!",
+      "concept": "Operations"
+    },
+    {
+      "id": "fd-025",
+      "question": "Inspector Clawson finds 3/4 of the clues. What decimal represents this?",
+      "answer": 0.75,
+      "options": [0.7, 0.75, 0.8, 0.85],
+      "explanation": "3/4 = 0.75. The Inspector is three-quarters done with the case!",
+      "concept": "Converting"
+    }
+  ]
+}

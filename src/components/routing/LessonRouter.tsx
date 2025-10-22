@@ -2,13 +2,18 @@ import React from 'react';
 import ArithmeticLesson from '../lessons/ArithmeticLesson';
 import CountingLesson from '../lessons/CountingLesson';
 import NumberRecognitionLesson from '../lessons/NumberRecognitionLesson';
+import FractionsDecimalsLesson from '../lessons/FractionsDecimalsLesson';
+import AlgebraBasicsLesson from '../lessons/AlgebraBasicsLesson';
+import ProbabilityLesson from '../lessons/ProbabilityLesson';
 import GeometryLesson from '../lessons/GeometryLesson';
+import TrigonometryLesson from '../lessons/TrigonometryLesson';
+import StatisticsLesson from '../lessons/StatisticsLesson';
+import AppliedMathLesson from '../lessons/AppliedMathLesson';
 import CalculusLesson from '../lessons/CalculusLesson';
 import SetTheoryLesson from '../lessons/SetTheoryLesson';
-import StatisticsLesson from '../lessons/StatisticsLesson';
 import NumberTheoryLesson from '../lessons/NumberTheoryLesson';
 import DiscreteMathLesson from '../lessons/DiscreteMathLesson';
-import TrigonometryLesson from '../lessons/TrigonometryLesson';
+import MathNatureLesson from '../lessons/MathNatureLesson';
 import TeaTimeBreak from '../ui/TeaTimeBreak';
 import AchievementSystem from '../ui/AchievementSystem';
 
@@ -49,6 +54,27 @@ const LessonRouter: React.FC<LessonRouterProps> = ({
     case 'arithmetic':
       return (
         <ArithmeticLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
+    case 'fractions-decimals':
+      return (
+        <FractionsDecimalsLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
+    case 'algebra-basics':
+      return (
+        <AlgebraBasicsLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
+    case 'probability':
+      return (
+        <ProbabilityLesson 
           onComplete={onLessonComplete}
           onTeaTime={onTeaTime}
         />
@@ -98,6 +124,20 @@ const LessonRouter: React.FC<LessonRouterProps> = ({
     case 'trigonometry':
       return (
         <TrigonometryLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
+    case 'applied-math':
+      return (
+        <AppliedMathLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
+    case 'math-nature':
+      return (
+        <MathNatureLesson 
           onComplete={onLessonComplete}
           onTeaTime={onTeaTime}
         />

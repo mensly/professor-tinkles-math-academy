@@ -340,8 +340,9 @@ body {
 }
 
 /* Lesson Styles */
-.number-recognition-lesson, .counting-lesson, .arithmetic-lesson, .geometry-lesson, .calculus-lesson, .set-theory-lesson, 
-.statistics-lesson, .number-theory-lesson, .discrete-math-lesson, .trigonometry-lesson {
+.number-recognition-lesson, .counting-lesson, .arithmetic-lesson, .fractions-decimals-lesson, .algebra-basics-lesson, .probability-lesson, 
+.geometry-lesson, .trigonometry-lesson, .statistics-lesson, .applied-math-lesson, .calculus-lesson, .set-theory-lesson, 
+.number-theory-lesson, .discrete-math-lesson, .math-nature-lesson {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;

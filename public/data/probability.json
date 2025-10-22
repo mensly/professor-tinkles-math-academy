@@ -1,0 +1,211 @@
+{
+  "lessonInfo": {
+    "title": "Probability",
+    "instructor": "Lady Pawsington",
+    "emoji": "🎲",
+    "difficulty": "intermediate",
+    "concepts": ["Basic Probability", "Combinations", "Conditional Probability", "Expected Value", "Games"]
+  },
+  "questions": [
+    {
+      "id": "pb-001",
+      "question": "Lady Pawsington rolls a fair 6-sided die. What's the probability of rolling a 3?",
+      "answer": 0.17,
+      "options": [0.14, 0.17, 0.2, 0.25],
+      "explanation": "P(3) = 1/6 ≈ 0.167. Lady Pawsington's dice probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-002",
+      "question": "Professor Tinkles has a bag with 3 red balls and 2 blue balls. What's the probability of drawing a red ball?",
+      "answer": 0.6,
+      "options": [0.4, 0.5, 0.6, 0.7],
+      "explanation": "P(red) = 3/(3+2) = 3/5 = 0.6. Professor Tinkles' ball probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-003",
+      "question": "Sir Whiskersworth flips a fair coin twice. What's the probability of getting heads both times?",
+      "answer": 0.25,
+      "options": [0.2, 0.25, 0.3, 0.5],
+      "explanation": "P(HH) = (1/2) × (1/2) = 1/4 = 0.25. Sir Whiskersworth's coin probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-004",
+      "question": "Inspector Clawson has 5 suspects. What's the probability of randomly selecting the guilty one?",
+      "answer": 0.2,
+      "options": [0.15, 0.2, 0.25, 0.3],
+      "explanation": "P(guilty) = 1/5 = 0.2. The Inspector's suspect probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-005",
+      "question": "Lady Pawsington draws 2 cards from a deck of 52. What's the probability both are hearts?",
+      "answer": 0.06,
+      "options": [0.04, 0.06, 0.08, 0.1],
+      "explanation": "P(2 hearts) = (13/52) × (12/51) = 156/2652 ≈ 0.059. Lady Pawsington's card probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-006",
+      "question": "Professor Tinkles has 4 cats and 3 dogs. What's the probability of randomly selecting a cat?",
+      "answer": 0.57,
+      "options": [0.5, 0.57, 0.6, 0.67],
+      "explanation": "P(cat) = 4/(4+3) = 4/7 ≈ 0.571. Professor Tinkles' pet probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-007",
+      "question": "Sir Whiskersworth rolls two dice. What's the probability of getting a sum of 7?",
+      "answer": 0.17,
+      "options": [0.14, 0.17, 0.2, 0.25],
+      "explanation": "P(sum=7) = 6/36 = 1/6 ≈ 0.167. Sir Whiskersworth's dice sum!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-008",
+      "question": "Inspector Clawson has 3 keys and 1 lock. What's the probability of opening it on the first try?",
+      "answer": 0.33,
+      "options": [0.25, 0.33, 0.4, 0.5],
+      "explanation": "P(success) = 1/3 ≈ 0.333. The Inspector's key probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-009",
+      "question": "Lady Pawsington has 6 books: 2 math, 2 science, 2 history. What's the probability of randomly selecting a math book?",
+      "answer": 0.33,
+      "options": [0.25, 0.33, 0.4, 0.5],
+      "explanation": "P(math) = 2/6 = 1/3 ≈ 0.333. Lady Pawsington's book probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-010",
+      "question": "Professor Tinkles flips a coin 3 times. What's the probability of getting exactly 2 heads?",
+      "answer": 0.38,
+      "options": [0.25, 0.38, 0.5, 0.75],
+      "explanation": "P(2 heads) = C(3,2) × (1/2)³ = 3 × 1/8 = 3/8 = 0.375. Professor Tinkles' combination probability!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-011",
+      "question": "Sir Whiskersworth has 5 different colored balls. How many ways can he arrange 3 of them?",
+      "answer": 60,
+      "options": [30, 60, 90, 120],
+      "explanation": "P(5,3) = 5!/(5-3)! = 5!/2! = 120/2 = 60. Sir Whiskersworth's permutation!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-012",
+      "question": "Inspector Clawson needs to choose 2 assistants from 4 candidates. How many combinations?",
+      "answer": 6,
+      "options": [4, 6, 8, 12],
+      "explanation": "C(4,2) = 4!/(2! × 2!) = 24/4 = 6. The Inspector's combination choice!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-013",
+      "question": "Lady Pawsington has 8 different books. How many ways can she arrange them on a shelf?",
+      "answer": 40320,
+      "options": [5040, 40320, 362880, 403200],
+      "explanation": "8! = 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 40320. Lady Pawsington's book arrangement!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-014",
+      "question": "Professor Tinkles draws 3 cards from a deck. What's the probability all are spades?",
+      "answer": 0.01,
+      "options": [0.005, 0.01, 0.015, 0.02],
+      "explanation": "P(3 spades) = (13/52) × (12/51) × (11/50) ≈ 0.0129. Professor Tinkles' spade probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-015",
+      "question": "Sir Whiskersworth has 6 different colored scarves. How many ways can he choose 2 to wear?",
+      "answer": 15,
+      "options": [12, 15, 18, 24],
+      "explanation": "C(6,2) = 6!/(2! × 4!) = 720/(2 × 24) = 15. Sir Whiskersworth's scarf combination!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-016",
+      "question": "Inspector Clawson has a 70% chance of solving a case. What's the probability he won't solve it?",
+      "answer": 0.3,
+      "options": [0.2, 0.3, 0.4, 0.5],
+      "explanation": "P(not solving) = 1 - 0.7 = 0.3. The Inspector's complement probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-017",
+      "question": "Lady Pawsington rolls a die. What's the probability of getting an even number?",
+      "answer": 0.5,
+      "options": [0.33, 0.5, 0.67, 0.75],
+      "explanation": "P(even) = 3/6 = 1/2 = 0.5. Lady Pawsington's even number probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-018",
+      "question": "Professor Tinkles has 4 red marbles and 6 blue marbles. What's the probability of drawing a red marble?",
+      "answer": 0.4,
+      "options": [0.3, 0.4, 0.5, 0.6],
+      "explanation": "P(red) = 4/(4+6) = 4/10 = 0.4. Professor Tinkles' marble probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-019",
+      "question": "Sir Whiskersworth flips a coin and rolls a die. What's the probability of heads AND a 6?",
+      "answer": 0.08,
+      "options": [0.05, 0.08, 0.1, 0.12],
+      "explanation": "P(H and 6) = (1/2) × (1/6) = 1/12 ≈ 0.083. Sir Whiskersworth's independent events!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-020",
+      "question": "Inspector Clawson has 3 suspects: A, B, C. What's the probability A is guilty?",
+      "answer": 0.33,
+      "options": [0.25, 0.33, 0.4, 0.5],
+      "explanation": "P(A guilty) = 1/3 ≈ 0.333. The Inspector's suspect probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-021",
+      "question": "Lady Pawsington has 5 different colored pens. How many ways can she choose 2?",
+      "answer": 10,
+      "options": [8, 10, 12, 15],
+      "explanation": "C(5,2) = 5!/(2! × 3!) = 120/(2 × 6) = 10. Lady Pawsington's pen combination!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-022",
+      "question": "Professor Tinkles draws 2 cards from a deck. What's the probability both are aces?",
+      "answer": 0.004,
+      "options": [0.002, 0.004, 0.006, 0.008],
+      "explanation": "P(2 aces) = (4/52) × (3/51) = 12/2652 ≈ 0.0045. Professor Tinkles' ace probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-023",
+      "question": "Sir Whiskersworth has 7 different books. How many ways can he arrange 4 of them?",
+      "answer": 840,
+      "options": [420, 840, 1260, 1680],
+      "explanation": "P(7,4) = 7!/(7-4)! = 7!/3! = 5040/6 = 840. Sir Whiskersworth's book permutation!",
+      "concept": "Combinations"
+    },
+    {
+      "id": "pb-024",
+      "question": "Inspector Clawson has a 60% chance of finding a clue. What's the probability he finds at least one clue in 2 attempts?",
+      "answer": 0.84,
+      "options": [0.8, 0.84, 0.9, 0.96],
+      "explanation": "P(at least 1) = 1 - P(none) = 1 - (0.4)² = 1 - 0.16 = 0.84. The Inspector's success probability!",
+      "concept": "Basic Probability"
+    },
+    {
+      "id": "pb-025",
+      "question": "Lady Pawsington has 6 different colored scarves. How many ways can she arrange them in a row?",
+      "answer": 720,
+      "options": [360, 720, 1080, 1440],
+      "explanation": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720. Lady Pawsington's scarf arrangement!",
+      "concept": "Combinations"
+    }
+  ]
+}
