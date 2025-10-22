@@ -11,7 +11,7 @@ const InspectorClawson: React.FC<InspectorClawsonProps> = ({ isActive = false, o
   const characterData: CharacterData = {
     name: "Inspector Clawson",
     title: "Mathematical Detective & Problem Solver",
-    imagePath: "./images/clawson.jpg",
+    imagePath: "/professor-tinkles-math-academy/images/clawson.jpg",
     altText: "Inspector Clawson - Mathematical Detective & Problem Solver",
     quotes: [
       "Elementary, my dear student! The answer was right under our whiskers all along!",

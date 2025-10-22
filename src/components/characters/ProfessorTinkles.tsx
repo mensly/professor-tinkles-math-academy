@@ -11,7 +11,7 @@ const ProfessorTinkles: React.FC<ProfessorTinklesProps> = ({ isActive = false, o
   const characterData: CharacterData = {
     name: "Professor Tinkles",
     title: "Headmaster & Mathematics Scholar",
-    imagePath: "./images/tinkles.jpg",
+    imagePath: "/professor-tinkles-math-academy/images/tinkles.jpg",
     altText: "Professor Tinkles - Headmaster & Mathematics Scholar",
     quotes: [
       "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.",

@@ -11,7 +11,7 @@ const LadyPawsington: React.FC<LadyPawsingtonProps> = ({ isActive = false, onSpe
   const characterData: CharacterData = {
     name: "Lady Pawsington",
     title: "Algebra Expert & Witty Scholar",
-    imagePath: "./images/pawsington.jpg",
+    imagePath: "/professor-tinkles-math-academy/images/pawsington.jpg",
     altText: "Lady Pawsington - Algebra Expert & Witty Scholar",
     quotes: [
       "Algebra is like a puzzle where every piece fits perfectly - if you know the right moves!",

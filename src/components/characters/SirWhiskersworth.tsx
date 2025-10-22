@@ -11,7 +11,7 @@ const SirWhiskersworth: React.FC<SirWhiskersworthProps> = ({ isActive = false, o
   const characterData: CharacterData = {
     name: "Sir Whiskersworth",
     title: "Geometry Specialist & Gentleman",
-    imagePath: "./images/wiskersworth.jpg",
+    imagePath: "/professor-tinkles-math-academy/images/wiskersworth.jpg",
     altText: "Sir Whiskersworth - Geometry Specialist & Gentleman",
     quotes: [
       "Geometry is the art of seeing the world through perfectly straight lines and elegant curves.",
