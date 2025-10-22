@@ -288,7 +288,7 @@ const App: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1>Professor Tinkles' Academy</h1>
+          <h1>Professor Tinkles' Math Academy</h1>
           <p className="academy-subtitle">
             A place where numbers dance and equations purr
           </p>
