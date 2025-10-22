@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/professor-tinkles-math-academy/static/css/main.c30d6b86.css",
-    "main.js": "/professor-tinkles-math-academy/static/js/main.9ecb8946.js",
+    "main.js": "/professor-tinkles-math-academy/static/js/main.79137144.js",
     "static/js/453.0775c6ab.chunk.js": "/professor-tinkles-math-academy/static/js/453.0775c6ab.chunk.js",
     "index.html": "/professor-tinkles-math-academy/index.html",
     "main.c30d6b86.css.map": "/professor-tinkles-math-academy/static/css/main.c30d6b86.css.map",
-    "main.9ecb8946.js.map": "/professor-tinkles-math-academy/static/js/main.9ecb8946.js.map",
+    "main.79137144.js.map": "/professor-tinkles-math-academy/static/js/main.79137144.js.map",
     "453.0775c6ab.chunk.js.map": "/professor-tinkles-math-academy/static/js/453.0775c6ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c30d6b86.css",
-    "static/js/main.9ecb8946.js"
+    "static/js/main.79137144.js"
   ]
 }
