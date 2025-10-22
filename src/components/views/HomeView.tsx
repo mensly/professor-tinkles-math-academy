@@ -4,9 +4,9 @@ import ProfessorTinkles from '../characters/ProfessorTinkles';
 import SirWhiskersworth from '../characters/SirWhiskersworth';
 import LadyPawsington from '../characters/LadyPawsington';
 import InspectorClawson from '../characters/InspectorClawson';
-import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star } from 'lucide-react';
+import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star, Hash as CountIcon } from 'lucide-react';
 
-type ViewType = 'home' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
+type ViewType = 'home' | 'counting' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
 type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
 
 interface HomeViewProps {
@@ -54,6 +54,14 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
     difficulty: DifficultyLevel | null;
     delay: number;
   }> = [
+    {
+      icon: CountIcon,
+      title: 'Counting Lessons',
+      description: 'Master the fundamentals of counting with Professor Tinkles',
+      view: 'counting',
+      difficulty: 'beginner',
+      delay: 0.1
+    },
     {
       icon: Calculator,
       title: 'Arithmetic Lessons',

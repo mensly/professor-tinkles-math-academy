@@ -1,5 +1,6 @@
 import React from 'react';
 import ArithmeticLesson from '../lessons/ArithmeticLesson';
+import CountingLesson from '../lessons/CountingLesson';
 import GeometryLesson from '../lessons/GeometryLesson';
 import CalculusLesson from '../lessons/CalculusLesson';
 import SetTheoryLesson from '../lessons/SetTheoryLesson';
@@ -30,6 +31,13 @@ const LessonRouter: React.FC<LessonRouterProps> = ({
   perfectScores
 }) => {
   switch (currentView) {
+    case 'counting':
+      return (
+        <CountingLesson 
+          onComplete={onLessonComplete}
+          onTeaTime={onTeaTime}
+        />
+      );
     case 'arithmetic':
       return (
         <ArithmeticLesson 
