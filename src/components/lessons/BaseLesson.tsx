@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle, XCircle, RotateCcw, Trophy } from 'lucide-react';
+import { CheckCircle, XCircle, RotateCcw, Trophy, Star } from 'lucide-react';
 
 export interface Problem {
   question: string;
@@ -12,11 +12,14 @@ export interface Problem {
   [key: string]: any; // Allow for additional custom properties
 }
 
+export type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
+
 export interface LessonData {
   title: string;
   instructor: string;
   emoji: string;
   className: string;
+  difficulty: DifficultyLevel;
   problems: Problem[];
   getScoreMessage: (score: number, total: number) => string;
   getConceptIcon?: (concept: string) => React.ReactNode;
@@ -38,6 +41,29 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [completed, setCompleted] = useState(false);
+
+  const getDifficultyStars = (difficulty: DifficultyLevel) => {
+    const starCount = {
+      'beginner': 1,
+      'intermediate': 2,
+      'advanced': 3,
+      'expert': 4
+    }[difficulty];
+
+    return Array.from({ length: starCount }, (_, i) => (
+      <Star key={i} size={16} className="difficulty-star" />
+    ));
+  };
+
+  const getDifficultyColor = (difficulty: DifficultyLevel) => {
+    const colors = {
+      'beginner': '#4ade80', // green
+      'intermediate': '#fbbf24', // yellow
+      'advanced': '#f97316', // orange
+      'expert': '#ef4444' // red
+    };
+    return colors[difficulty];
+  };
 
   const handleAnswerSelect = (answer: number) => {
     if (showResult) return;
@@ -125,7 +151,18 @@ const BaseLesson: React.FC<BaseLessonProps> = ({ lesson, onComplete, onTeaTime }
       transition={{ duration: 0.5 }}
     >
       <div className="lesson-header">
-        <h2>{lesson.emoji} {lesson.title} with {lesson.instructor}</h2>
+        <div className="lesson-title-section">
+          <h2>{lesson.emoji} {lesson.title} with {lesson.instructor}</h2>
+          <div 
+            className="difficulty-badge"
+            style={{ backgroundColor: getDifficultyColor(lesson.difficulty) }}
+          >
+            <span className="difficulty-text">{lesson.difficulty.toUpperCase()}</span>
+            <div className="difficulty-stars">
+              {getDifficultyStars(lesson.difficulty)}
+            </div>
+          </div>
+        </div>
         <div className="progress-bar">
           <div 
             className="progress-fill" 

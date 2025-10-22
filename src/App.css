@@ -209,6 +209,42 @@ body {
   font-size: 1.3rem;
 }
 
+.feature-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.difficulty-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  min-width: 80px;
+}
+
+.difficulty-text {
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+.difficulty-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.difficulty-star {
+  color: white;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));
+}
+
 .feature-card p {
   color: #5a6c7d;
   line-height: 1.5;
@@ -266,6 +302,21 @@ body {
   color: #2c3e50;
   margin-bottom: 1rem;
   font-size: 2rem;
+}
+
+.lesson-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.lesson-title-section h2 {
+  margin-bottom: 0;
+  flex: 1;
+  min-width: 300px;
 }
 
 .progress-bar {

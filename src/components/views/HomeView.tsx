@@ -4,9 +4,10 @@ import ProfessorTinkles from '../characters/ProfessorTinkles';
 import SirWhiskersworth from '../characters/SirWhiskersworth';
 import LadyPawsington from '../characters/LadyPawsington';
 import InspectorClawson from '../characters/InspectorClawson';
-import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy } from 'lucide-react';
+import { Calculator, Triangle, Zap, Layers, BarChart3, Hash, Network, Circle, Coffee, Trophy, Star } from 'lucide-react';
 
 type ViewType = 'home' | 'arithmetic' | 'geometry' | 'calculus' | 'set-theory' | 'statistics' | 'number-theory' | 'discrete-math' | 'trigonometry' | 'tea-time' | 'achievements';
+type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
 
 interface HomeViewProps {
   onViewChange: (view: ViewType) => void;
@@ -22,11 +23,35 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
     { id: 'inspector', component: InspectorClawson, name: 'Inspector Clawson' }
   ];
 
+  const getDifficultyStars = (difficulty: DifficultyLevel) => {
+    const starCount = {
+      'beginner': 1,
+      'intermediate': 2,
+      'advanced': 3,
+      'expert': 4
+    }[difficulty];
+
+    return Array.from({ length: starCount }, (_, i) => (
+      <Star key={i} size={12} className="difficulty-star" />
+    ));
+  };
+
+  const getDifficultyColor = (difficulty: DifficultyLevel) => {
+    const colors = {
+      'beginner': '#4ade80', // green
+      'intermediate': '#fbbf24', // yellow
+      'advanced': '#f97316', // orange
+      'expert': '#ef4444' // red
+    };
+    return colors[difficulty];
+  };
+
   const featureCards: Array<{
     icon: React.ComponentType<{ size: number }>;
     title: string;
     description: string;
     view: ViewType;
+    difficulty: DifficultyLevel;
     delay: number;
   }> = [
     {
@@ -34,6 +59,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Arithmetic Lessons',
       description: 'Learn basic math with Professor Tinkles',
       view: 'arithmetic',
+      difficulty: 'beginner',
       delay: 0.2
     },
     {
@@ -41,6 +67,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Geometry Lessons',
       description: 'Explore shapes with Sir Whiskersworth',
       view: 'geometry',
+      difficulty: 'intermediate',
       delay: 0.3
     },
     {
@@ -48,6 +75,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Calculus Lessons',
       description: 'Master derivatives and integrals with Professor Tinkles',
       view: 'calculus',
+      difficulty: 'advanced',
       delay: 0.4
     },
     {
@@ -55,6 +83,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Set Theory Lessons',
       description: 'Explore unions, intersections, and complements with Lady Pawsington',
       view: 'set-theory',
+      difficulty: 'intermediate',
       delay: 0.5
     },
     {
@@ -62,6 +91,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Statistics & Probability',
       description: 'Master data analysis and chance with Lady Pawsington',
       view: 'statistics',
+      difficulty: 'intermediate',
       delay: 0.6
     },
     {
@@ -69,6 +99,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Number Theory',
       description: 'Explore primes, factors, and sequences with Professor Tinkles',
       view: 'number-theory',
+      difficulty: 'advanced',
       delay: 0.7
     },
     {
@@ -76,6 +107,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Discrete Mathematics',
       description: 'Solve combinatorial problems with Inspector Clawson',
       view: 'discrete-math',
+      difficulty: 'advanced',
       delay: 0.8
     },
     {
@@ -83,6 +115,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Trigonometry',
       description: 'Master angles and periodic functions with Sir Whiskersworth',
       view: 'trigonometry',
+      difficulty: 'intermediate',
       delay: 0.9
     },
     {
@@ -90,6 +123,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Tea Time Break',
       description: 'Take a delightful British break',
       view: 'tea-time',
+      difficulty: 'beginner',
       delay: 1.0
     },
     {
@@ -97,6 +131,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
       title: 'Achievements',
       description: 'View your mathematical progress',
       view: 'achievements',
+      difficulty: 'beginner',
       delay: 1.1
     }
   ];
@@ -104,7 +139,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
   return (
     <>
       <div className="academy-features">
-        {featureCards.map(({ icon: Icon, title, description, view, delay }) => (
+        {featureCards.map(({ icon: Icon, title, description, view, difficulty, delay }) => (
           <motion.div
             key={view}
             className="feature-card"
@@ -114,7 +149,18 @@ const HomeView: React.FC<HomeViewProps> = ({ onViewChange, onCharacterSpeak, act
             transition={{ duration: 0.5, delay }}
             onClick={() => onViewChange(view)}
           >
-            <Icon size={32} />
+            <div className="feature-card-header">
+              <Icon size={32} />
+              <div 
+                className="difficulty-badge"
+                style={{ backgroundColor: getDifficultyColor(difficulty) }}
+              >
+                <span className="difficulty-text">{difficulty.toUpperCase()}</span>
+                <div className="difficulty-stars">
+                  {getDifficultyStars(difficulty)}
+                </div>
+              </div>
+            </div>
             <h3>{title}</h3>
             <p>{description}</p>
           </motion.div>

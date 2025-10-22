@@ -62,6 +62,7 @@ const CalculusLesson: React.FC<CalculusLessonProps> = ({ onComplete, onTeaTime }
     instructor: "Professor Tinkles",
     emoji: "📊",
     className: "calculus-lesson",
+    difficulty: "advanced",
     problems,
     getScoreMessage: (score: number, total: number) => {
       const percentage = (score / total) * 100;

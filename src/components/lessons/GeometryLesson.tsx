@@ -61,6 +61,7 @@ const GeometryLesson: React.FC<GeometryLessonProps> = ({ onComplete, onTeaTime }
     instructor: "Sir Whiskersworth",
     emoji: "📐",
     className: "geometry-lesson",
+    difficulty: "intermediate",
     problems,
     getScoreMessage: (score: number, total: number) => {
       const percentage = (score / total) * 100;

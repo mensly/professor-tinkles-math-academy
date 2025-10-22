@@ -45,6 +45,7 @@ const ArithmeticLesson: React.FC<ArithmeticLessonProps> = ({ onComplete, onTeaTi
     instructor: "Professor Tinkles",
     emoji: "🐱",
     className: "arithmetic-lesson",
+    difficulty: "beginner",
     problems,
     getScoreMessage: (score: number, total: number) => {
       const percentage = (score / total) * 100;
